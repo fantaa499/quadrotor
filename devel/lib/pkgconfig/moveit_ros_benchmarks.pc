@@ -1,0 +1,8 @@
+prefix=/home/anton/Documents/catkin_ws/devel
+
+Name: moveit_ros_benchmarks
+Description: Description of moveit_ros_benchmarks
+Version: 0.9.11
+Cflags: -I/home/anton/Documents/catkin_ws/src/moveit/moveit_ros/benchmarks/include
+Libs: -L/home/anton/Documents/catkin_ws/devel/lib -lmoveit_ros_benchmarks
+Requires: moveit_ros_planning moveit_ros_warehouse roscpp

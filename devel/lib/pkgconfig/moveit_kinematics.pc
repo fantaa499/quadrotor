@@ -1,0 +1,8 @@
+prefix=/home/anton/Documents/catkin_ws/devel
+
+Name: moveit_kinematics
+Description: Description of moveit_kinematics
+Version: 0.9.11
+Cflags: -I/home/anton/Documents/catkin_ws/src/moveit/moveit_kinematics/kdl_kinematics_plugin/include -I/home/anton/Documents/catkin_ws/src/moveit/moveit_kinematics/lma_kinematics_plugin/include -I/home/anton/Documents/catkin_ws/src/moveit/moveit_kinematics/srv_kinematics_plugin/include -I/home/anton/Documents/catkin_ws/src/moveit/moveit_kinematics/cached_ik_kinematics_plugin/include -I/usr/include/eigen3
+Libs: -L/home/anton/Documents/catkin_ws/devel/lib 
+Requires: pluginlib moveit_core moveit_ros_planning
