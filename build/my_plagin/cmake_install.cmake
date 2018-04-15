@@ -47,3 +47,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_plagin" TYPE FILE FILES "/home/anton/Documents/catkin_ws/src/my_plagin/package.xml")
 endif()
 
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_plagin" TYPE DIRECTORY FILES "/home/anton/Documents/catkin_ws/src/my_plagin/launch")
+endif()
+

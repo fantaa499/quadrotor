@@ -54,6 +54,8 @@
 -I/home/anton/Documents/catkin_ws/src/rgbdslam_v2/BEFORE
 -I/opt/ros/kinetic/include
 -I/home/anton/Documents/g2o
+-I/usr/include/qt4
+-I/usr/include/qt4/QtOpenGL
 -I/home/anton/Documents/catkin_ws/build/rgbdslam_v2
 -I/usr/include/qt4/QtOpenGL
 -I/home/anton/Documents/catkin_ws/src/rgbdslam_v2/external/gicp/ann_1.1.2/include/ANN

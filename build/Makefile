@@ -2012,19 +2012,6 @@ hector_quadrotor_aerodynamics/fast:
 .PHONY : hector_quadrotor_aerodynamics/fast
 
 #=============================================================================
-# Target rules for targets named oct
-
-# Build rule for target.
-oct: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 oct
-.PHONY : oct
-
-# fast build rule for target.
-oct/fast:
-	$(MAKE) -f my_plagin/CMakeFiles/oct.dir/build.make my_plagin/CMakeFiles/oct.dir/build
-.PHONY : oct/fast
-
-#=============================================================================
 # Target rules for targets named sensor_msgs_generate_messages_eus
 
 # Build rule for target.
@@ -3260,19 +3247,6 @@ message_to_tf/fast:
 .PHONY : message_to_tf/fast
 
 #=============================================================================
-# Target rules for targets named _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_b
-
-# Build rule for target.
-_rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_b: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_b
-.PHONY : _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_b
-
-# fast build rule for target.
-_rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_b/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/_rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_b.dir/build.make rgbdslam_v2/CMakeFiles/_rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_b.dir/build
-.PHONY : _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_b/fast
-
-#=============================================================================
 # Target rules for targets named pcl_msgs_generate_messages_py
 
 # Build rule for target.
@@ -3282,60 +3256,8 @@ pcl_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 pcl_msgs_generate_messages_py/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/pcl_msgs_generate_messages_py.dir/build.make rgbdslam_v2/CMakeFiles/pcl_msgs_generate_messages_py.dir/build
+	$(MAKE) -f my_plagin/CMakeFiles/pcl_msgs_generate_messages_py.dir/build.make my_plagin/CMakeFiles/pcl_msgs_generate_messages_py.dir/build
 .PHONY : pcl_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_s
-
-# Build rule for target.
-_rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_s: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_s
-.PHONY : _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_s
-
-# fast build rule for target.
-_rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_s/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/_rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_s.dir/build.make rgbdslam_v2/CMakeFiles/_rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_s.dir/build
-.PHONY : _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_s/fast
-
-#=============================================================================
-# Target rules for targets named pcl_msgs_generate_messages_cpp
-
-# Build rule for target.
-pcl_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pcl_msgs_generate_messages_cpp
-.PHONY : pcl_msgs_generate_messages_cpp
-
-# fast build rule for target.
-pcl_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build.make rgbdslam_v2/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build
-.PHONY : pcl_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui
-
-# Build rule for target.
-_rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui
-.PHONY : _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui
-
-# fast build rule for target.
-_rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/_rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui.dir/build.make rgbdslam_v2/CMakeFiles/_rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui.dir/build
-.PHONY : _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui/fast
-
-#=============================================================================
-# Target rules for targets named pcl_ros_gencfg
-
-# Build rule for target.
-pcl_ros_gencfg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pcl_ros_gencfg
-.PHONY : pcl_ros_gencfg
-
-# fast build rule for target.
-pcl_ros_gencfg/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/pcl_ros_gencfg.dir/build.make rgbdslam_v2/CMakeFiles/pcl_ros_gencfg.dir/build
-.PHONY : pcl_ros_gencfg/fast
 
 #=============================================================================
 # Target rules for targets named pcl_msgs_generate_messages_eus
@@ -3347,34 +3269,34 @@ pcl_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 pcl_msgs_generate_messages_eus/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/pcl_msgs_generate_messages_eus.dir/build.make rgbdslam_v2/CMakeFiles/pcl_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f my_plagin/CMakeFiles/pcl_msgs_generate_messages_eus.dir/build.make my_plagin/CMakeFiles/pcl_msgs_generate_messages_eus.dir/build
 .PHONY : pcl_msgs_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named rgbdslam_genlisp
+# Target rules for targets named pcl_ros_gencfg
 
 # Build rule for target.
-rgbdslam_genlisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rgbdslam_genlisp
-.PHONY : rgbdslam_genlisp
+pcl_ros_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_ros_gencfg
+.PHONY : pcl_ros_gencfg
 
 # fast build rule for target.
-rgbdslam_genlisp/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam_genlisp.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam_genlisp.dir/build
-.PHONY : rgbdslam_genlisp/fast
+pcl_ros_gencfg/fast:
+	$(MAKE) -f my_plagin/CMakeFiles/pcl_ros_gencfg.dir/build.make my_plagin/CMakeFiles/pcl_ros_gencfg.dir/build
+.PHONY : pcl_ros_gencfg/fast
 
 #=============================================================================
-# Target rules for targets named rgbdslam_generate_messages_nodejs
+# Target rules for targets named pcl_msgs_generate_messages_cpp
 
 # Build rule for target.
-rgbdslam_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rgbdslam_generate_messages_nodejs
-.PHONY : rgbdslam_generate_messages_nodejs
+pcl_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_msgs_generate_messages_cpp
+.PHONY : pcl_msgs_generate_messages_cpp
 
 # fast build rule for target.
-rgbdslam_generate_messages_nodejs/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam_generate_messages_nodejs.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam_generate_messages_nodejs.dir/build
-.PHONY : rgbdslam_generate_messages_nodejs/fast
+pcl_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f my_plagin/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build.make my_plagin/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build
+.PHONY : pcl_msgs_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named pcl_msgs_generate_messages_nodejs
@@ -3386,125 +3308,8 @@ pcl_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 pcl_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/build.make rgbdslam_v2/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f my_plagin/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/build.make my_plagin/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/build
 .PHONY : pcl_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_f
-
-# Build rule for target.
-_rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_f: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_f
-.PHONY : _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_f
-
-# fast build rule for target.
-_rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_f/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/_rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_f.dir/build.make rgbdslam_v2/CMakeFiles/_rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_f.dir/build
-.PHONY : _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_f/fast
-
-#=============================================================================
-# Target rules for targets named rgbdslam_generate_messages_cpp
-
-# Build rule for target.
-rgbdslam_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rgbdslam_generate_messages_cpp
-.PHONY : rgbdslam_generate_messages_cpp
-
-# fast build rule for target.
-rgbdslam_generate_messages_cpp/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam_generate_messages_cpp.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam_generate_messages_cpp.dir/build
-.PHONY : rgbdslam_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named rgbdslam_gencpp
-
-# Build rule for target.
-rgbdslam_gencpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rgbdslam_gencpp
-.PHONY : rgbdslam_gencpp
-
-# fast build rule for target.
-rgbdslam_gencpp/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam_gencpp.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam_gencpp.dir/build
-.PHONY : rgbdslam_gencpp/fast
-
-#=============================================================================
-# Target rules for targets named rgbdslam_generate_messages
-
-# Build rule for target.
-rgbdslam_generate_messages: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rgbdslam_generate_messages
-.PHONY : rgbdslam_generate_messages
-
-# fast build rule for target.
-rgbdslam_generate_messages/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam_generate_messages.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam_generate_messages.dir/build
-.PHONY : rgbdslam_generate_messages/fast
-
-#=============================================================================
-# Target rules for targets named rgbdslam_generate_messages_eus
-
-# Build rule for target.
-rgbdslam_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rgbdslam_generate_messages_eus
-.PHONY : rgbdslam_generate_messages_eus
-
-# fast build rule for target.
-rgbdslam_generate_messages_eus/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam_generate_messages_eus.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam_generate_messages_eus.dir/build
-.PHONY : rgbdslam_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named rgbdslam_geneus
-
-# Build rule for target.
-rgbdslam_geneus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rgbdslam_geneus
-.PHONY : rgbdslam_geneus
-
-# fast build rule for target.
-rgbdslam_geneus/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam_geneus.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam_geneus.dir/build
-.PHONY : rgbdslam_geneus/fast
-
-#=============================================================================
-# Target rules for targets named rgbdslam_generate_messages_lisp
-
-# Build rule for target.
-rgbdslam_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rgbdslam_generate_messages_lisp
-.PHONY : rgbdslam_generate_messages_lisp
-
-# fast build rule for target.
-rgbdslam_generate_messages_lisp/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam_generate_messages_lisp.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam_generate_messages_lisp.dir/build
-.PHONY : rgbdslam_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named rgbdslam_gennodejs
-
-# Build rule for target.
-rgbdslam_gennodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rgbdslam_gennodejs
-.PHONY : rgbdslam_gennodejs
-
-# fast build rule for target.
-rgbdslam_gennodejs/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam_gennodejs.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam_gennodejs.dir/build
-.PHONY : rgbdslam_gennodejs/fast
-
-#=============================================================================
-# Target rules for targets named rgbdslam_generate_messages_py
-
-# Build rule for target.
-rgbdslam_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rgbdslam_generate_messages_py
-.PHONY : rgbdslam_generate_messages_py
-
-# fast build rule for target.
-rgbdslam_generate_messages_py/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam_generate_messages_py.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam_generate_messages_py.dir/build
-.PHONY : rgbdslam_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named pcl_msgs_generate_messages_lisp
@@ -3516,47 +3321,21 @@ pcl_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 pcl_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build.make rgbdslam_v2/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build.make my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build
 .PHONY : pcl_msgs_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named rgbdslam_genpy
+# Target rules for targets named oct
 
 # Build rule for target.
-rgbdslam_genpy: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rgbdslam_genpy
-.PHONY : rgbdslam_genpy
+oct: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 oct
+.PHONY : oct
 
 # fast build rule for target.
-rgbdslam_genpy/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam_genpy.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam_genpy.dir/build
-.PHONY : rgbdslam_genpy/fast
-
-#=============================================================================
-# Target rules for targets named rgbdslam
-
-# Build rule for target.
-rgbdslam: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rgbdslam
-.PHONY : rgbdslam
-
-# fast build rule for target.
-rgbdslam/fast:
-	$(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/build
-.PHONY : rgbdslam/fast
-
-#=============================================================================
-# Target rules for targets named siftgpu_proj
-
-# Build rule for target.
-siftgpu_proj: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 siftgpu_proj
-.PHONY : siftgpu_proj
-
-# fast build rule for target.
-siftgpu_proj/fast:
-	$(MAKE) -f rgbdslam_v2/external/CMakeFiles/siftgpu_proj.dir/build.make rgbdslam_v2/external/CMakeFiles/siftgpu_proj.dir/build
-.PHONY : siftgpu_proj/fast
+oct/fast:
+	$(MAKE) -f my_plagin/CMakeFiles/oct.dir/build.make my_plagin/CMakeFiles/oct.dir/build
+.PHONY : oct/fast
 
 #=============================================================================
 # Target rules for targets named hector_mapping_generate_messages_py
@@ -4467,7 +4246,6 @@ help:
 	@echo "... hector_geotiff_plugins"
 	@echo "... hector_quadrotor_propulsion"
 	@echo "... hector_quadrotor_aerodynamics"
-	@echo "... oct"
 	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_nodejs"
@@ -4563,29 +4341,13 @@ help:
 	@echo "... topic_tools_generate_messages_py"
 	@echo "... topic_tools_generate_messages_cpp"
 	@echo "... message_to_tf"
-	@echo "... _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_b"
 	@echo "... pcl_msgs_generate_messages_py"
-	@echo "... _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_s"
-	@echo "... pcl_msgs_generate_messages_cpp"
-	@echo "... _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui"
-	@echo "... pcl_ros_gencfg"
 	@echo "... pcl_msgs_generate_messages_eus"
-	@echo "... rgbdslam_genlisp"
-	@echo "... rgbdslam_generate_messages_nodejs"
+	@echo "... pcl_ros_gencfg"
+	@echo "... pcl_msgs_generate_messages_cpp"
 	@echo "... pcl_msgs_generate_messages_nodejs"
-	@echo "... _rgbdslam_generate_messages_check_deps_rgbdslam_ros_ui_f"
-	@echo "... rgbdslam_generate_messages_cpp"
-	@echo "... rgbdslam_gencpp"
-	@echo "... rgbdslam_generate_messages"
-	@echo "... rgbdslam_generate_messages_eus"
-	@echo "... rgbdslam_geneus"
-	@echo "... rgbdslam_generate_messages_lisp"
-	@echo "... rgbdslam_gennodejs"
-	@echo "... rgbdslam_generate_messages_py"
 	@echo "... pcl_msgs_generate_messages_lisp"
-	@echo "... rgbdslam_genpy"
-	@echo "... rgbdslam"
-	@echo "... siftgpu_proj"
+	@echo "... oct"
 	@echo "... hector_mapping_generate_messages_py"
 	@echo "... hector_mapping"
 	@echo "... hector_mapping_gennodejs"

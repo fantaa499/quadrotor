@@ -12,10 +12,12 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   octomap REQUIRED
+  sensor_msgs
+  pcl_ros
 )
 
 
-
+find_package(PCL 1.8 REQUIRED)
 
 
 ###################################
@@ -38,12 +40,18 @@ catkin_package(
 ## Build ##
 ###########
 
+link_directories(${PCL_LIBRARY_DIRS})
+link_directories(${OCTOMAP_LIBRARY_DIRS})
+add_definitions(${PCL_DEFINITIONS})
+
+
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
 # include
   ${catkin_INCLUDE_DIRS}
   ${OCTOMAP_INCLUDE_DIRS}
+  ${PCL_INCLUDE_DIRS}
 )
 
 
@@ -51,8 +59,7 @@ include_directories(
 
 
 add_executable(oct src/oct.cpp)
-target_link_libraries(oct ${catkin_LIBRARIES} ${OCTOMAP_LIBRARIES}) #${OCTOMAP_LIBRARIES}
+target_link_libraries(oct ${catkin_LIBRARIES} ${OCTOMAP_LIBRARIES} ${PCL_LIBRARIES})
 #add_dependencies(oct my_plagin_gencpp)
-
+install(DIRECTORY launch DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 #############
-

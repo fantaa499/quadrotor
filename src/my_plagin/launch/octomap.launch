@@ -1,0 +1,5 @@
+<launch>
+	<node name="octomap_server" pkg="octomap_server" type="octomap_server_node">
+    <remap from="cloud_in" to="/camera/depth/points"/>
+	</node>
+</launch>

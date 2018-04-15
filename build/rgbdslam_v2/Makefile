@@ -495,6 +495,897 @@ rgbdslam/fast:
 	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/build
 .PHONY : rgbdslam/fast
 
+src/ColorOctomapServer.o: src/ColorOctomapServer.cpp.o
+
+.PHONY : src/ColorOctomapServer.o
+
+# target to build an object file
+src/ColorOctomapServer.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/ColorOctomapServer.cpp.o
+.PHONY : src/ColorOctomapServer.cpp.o
+
+src/ColorOctomapServer.i: src/ColorOctomapServer.cpp.i
+
+.PHONY : src/ColorOctomapServer.i
+
+# target to preprocess a source file
+src/ColorOctomapServer.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/ColorOctomapServer.cpp.i
+.PHONY : src/ColorOctomapServer.cpp.i
+
+src/ColorOctomapServer.s: src/ColorOctomapServer.cpp.s
+
+.PHONY : src/ColorOctomapServer.s
+
+# target to generate assembly for a file
+src/ColorOctomapServer.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/ColorOctomapServer.cpp.s
+.PHONY : src/ColorOctomapServer.cpp.s
+
+src/covariance_estimation.o: src/covariance_estimation.cpp.o
+
+.PHONY : src/covariance_estimation.o
+
+# target to build an object file
+src/covariance_estimation.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/covariance_estimation.cpp.o
+.PHONY : src/covariance_estimation.cpp.o
+
+src/covariance_estimation.i: src/covariance_estimation.cpp.i
+
+.PHONY : src/covariance_estimation.i
+
+# target to preprocess a source file
+src/covariance_estimation.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/covariance_estimation.cpp.i
+.PHONY : src/covariance_estimation.cpp.i
+
+src/covariance_estimation.s: src/covariance_estimation.cpp.s
+
+.PHONY : src/covariance_estimation.s
+
+# target to generate assembly for a file
+src/covariance_estimation.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/covariance_estimation.cpp.s
+.PHONY : src/covariance_estimation.cpp.s
+
+src/feature_adjuster.o: src/feature_adjuster.cpp.o
+
+.PHONY : src/feature_adjuster.o
+
+# target to build an object file
+src/feature_adjuster.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/feature_adjuster.cpp.o
+.PHONY : src/feature_adjuster.cpp.o
+
+src/feature_adjuster.i: src/feature_adjuster.cpp.i
+
+.PHONY : src/feature_adjuster.i
+
+# target to preprocess a source file
+src/feature_adjuster.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/feature_adjuster.cpp.i
+.PHONY : src/feature_adjuster.cpp.i
+
+src/feature_adjuster.s: src/feature_adjuster.cpp.s
+
+.PHONY : src/feature_adjuster.s
+
+# target to generate assembly for a file
+src/feature_adjuster.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/feature_adjuster.cpp.s
+.PHONY : src/feature_adjuster.cpp.s
+
+src/features.o: src/features.cpp.o
+
+.PHONY : src/features.o
+
+# target to build an object file
+src/features.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/features.cpp.o
+.PHONY : src/features.cpp.o
+
+src/features.i: src/features.cpp.i
+
+.PHONY : src/features.i
+
+# target to preprocess a source file
+src/features.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/features.cpp.i
+.PHONY : src/features.cpp.i
+
+src/features.s: src/features.cpp.s
+
+.PHONY : src/features.s
+
+# target to generate assembly for a file
+src/features.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/features.cpp.s
+.PHONY : src/features.cpp.s
+
+src/gicp-fallback.o: src/gicp-fallback.cpp.o
+
+.PHONY : src/gicp-fallback.o
+
+# target to build an object file
+src/gicp-fallback.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/gicp-fallback.cpp.o
+.PHONY : src/gicp-fallback.cpp.o
+
+src/gicp-fallback.i: src/gicp-fallback.cpp.i
+
+.PHONY : src/gicp-fallback.i
+
+# target to preprocess a source file
+src/gicp-fallback.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/gicp-fallback.cpp.i
+.PHONY : src/gicp-fallback.cpp.i
+
+src/gicp-fallback.s: src/gicp-fallback.cpp.s
+
+.PHONY : src/gicp-fallback.s
+
+# target to generate assembly for a file
+src/gicp-fallback.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/gicp-fallback.cpp.s
+.PHONY : src/gicp-fallback.cpp.s
+
+src/glviewer.o: src/glviewer.cpp.o
+
+.PHONY : src/glviewer.o
+
+# target to build an object file
+src/glviewer.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/glviewer.cpp.o
+.PHONY : src/glviewer.cpp.o
+
+src/glviewer.i: src/glviewer.cpp.i
+
+.PHONY : src/glviewer.i
+
+# target to preprocess a source file
+src/glviewer.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/glviewer.cpp.i
+.PHONY : src/glviewer.cpp.i
+
+src/glviewer.s: src/glviewer.cpp.s
+
+.PHONY : src/glviewer.s
+
+# target to generate assembly for a file
+src/glviewer.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/glviewer.cpp.s
+.PHONY : src/glviewer.cpp.s
+
+src/graph_manager.o: src/graph_manager.cpp.o
+
+.PHONY : src/graph_manager.o
+
+# target to build an object file
+src/graph_manager.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/graph_manager.cpp.o
+.PHONY : src/graph_manager.cpp.o
+
+src/graph_manager.i: src/graph_manager.cpp.i
+
+.PHONY : src/graph_manager.i
+
+# target to preprocess a source file
+src/graph_manager.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/graph_manager.cpp.i
+.PHONY : src/graph_manager.cpp.i
+
+src/graph_manager.s: src/graph_manager.cpp.s
+
+.PHONY : src/graph_manager.s
+
+# target to generate assembly for a file
+src/graph_manager.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/graph_manager.cpp.s
+.PHONY : src/graph_manager.cpp.s
+
+src/graph_manager2.o: src/graph_manager2.cpp.o
+
+.PHONY : src/graph_manager2.o
+
+# target to build an object file
+src/graph_manager2.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/graph_manager2.cpp.o
+.PHONY : src/graph_manager2.cpp.o
+
+src/graph_manager2.i: src/graph_manager2.cpp.i
+
+.PHONY : src/graph_manager2.i
+
+# target to preprocess a source file
+src/graph_manager2.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/graph_manager2.cpp.i
+.PHONY : src/graph_manager2.cpp.i
+
+src/graph_manager2.s: src/graph_manager2.cpp.s
+
+.PHONY : src/graph_manager2.s
+
+# target to generate assembly for a file
+src/graph_manager2.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/graph_manager2.cpp.s
+.PHONY : src/graph_manager2.cpp.s
+
+src/graph_mgr_io.o: src/graph_mgr_io.cpp.o
+
+.PHONY : src/graph_mgr_io.o
+
+# target to build an object file
+src/graph_mgr_io.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/graph_mgr_io.cpp.o
+.PHONY : src/graph_mgr_io.cpp.o
+
+src/graph_mgr_io.i: src/graph_mgr_io.cpp.i
+
+.PHONY : src/graph_mgr_io.i
+
+# target to preprocess a source file
+src/graph_mgr_io.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/graph_mgr_io.cpp.i
+.PHONY : src/graph_mgr_io.cpp.i
+
+src/graph_mgr_io.s: src/graph_mgr_io.cpp.s
+
+.PHONY : src/graph_mgr_io.s
+
+# target to generate assembly for a file
+src/graph_mgr_io.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/graph_mgr_io.cpp.s
+.PHONY : src/graph_mgr_io.cpp.s
+
+src/graph_mgr_odom.o: src/graph_mgr_odom.cpp.o
+
+.PHONY : src/graph_mgr_odom.o
+
+# target to build an object file
+src/graph_mgr_odom.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/graph_mgr_odom.cpp.o
+.PHONY : src/graph_mgr_odom.cpp.o
+
+src/graph_mgr_odom.i: src/graph_mgr_odom.cpp.i
+
+.PHONY : src/graph_mgr_odom.i
+
+# target to preprocess a source file
+src/graph_mgr_odom.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/graph_mgr_odom.cpp.i
+.PHONY : src/graph_mgr_odom.cpp.i
+
+src/graph_mgr_odom.s: src/graph_mgr_odom.cpp.s
+
+.PHONY : src/graph_mgr_odom.s
+
+# target to generate assembly for a file
+src/graph_mgr_odom.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/graph_mgr_odom.cpp.s
+.PHONY : src/graph_mgr_odom.cpp.s
+
+src/header.o: src/header.cpp.o
+
+.PHONY : src/header.o
+
+# target to build an object file
+src/header.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/header.cpp.o
+.PHONY : src/header.cpp.o
+
+src/header.i: src/header.cpp.i
+
+.PHONY : src/header.i
+
+# target to preprocess a source file
+src/header.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/header.cpp.i
+.PHONY : src/header.cpp.i
+
+src/header.s: src/header.cpp.s
+
+.PHONY : src/header.s
+
+# target to generate assembly for a file
+src/header.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/header.cpp.s
+.PHONY : src/header.cpp.s
+
+src/icp.o: src/icp.cpp.o
+
+.PHONY : src/icp.o
+
+# target to build an object file
+src/icp.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/icp.cpp.o
+.PHONY : src/icp.cpp.o
+
+src/icp.i: src/icp.cpp.i
+
+.PHONY : src/icp.i
+
+# target to preprocess a source file
+src/icp.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/icp.cpp.i
+.PHONY : src/icp.cpp.i
+
+src/icp.s: src/icp.cpp.s
+
+.PHONY : src/icp.s
+
+# target to generate assembly for a file
+src/icp.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/icp.cpp.s
+.PHONY : src/icp.cpp.s
+
+src/landmark.o: src/landmark.cpp.o
+
+.PHONY : src/landmark.o
+
+# target to build an object file
+src/landmark.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/landmark.cpp.o
+.PHONY : src/landmark.cpp.o
+
+src/landmark.i: src/landmark.cpp.i
+
+.PHONY : src/landmark.i
+
+# target to preprocess a source file
+src/landmark.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/landmark.cpp.i
+.PHONY : src/landmark.cpp.i
+
+src/landmark.s: src/landmark.cpp.s
+
+.PHONY : src/landmark.s
+
+# target to generate assembly for a file
+src/landmark.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/landmark.cpp.s
+.PHONY : src/landmark.cpp.s
+
+src/loop_closing.o: src/loop_closing.cpp.o
+
+.PHONY : src/loop_closing.o
+
+# target to build an object file
+src/loop_closing.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/loop_closing.cpp.o
+.PHONY : src/loop_closing.cpp.o
+
+src/loop_closing.i: src/loop_closing.cpp.i
+
+.PHONY : src/loop_closing.i
+
+# target to preprocess a source file
+src/loop_closing.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/loop_closing.cpp.i
+.PHONY : src/loop_closing.cpp.i
+
+src/loop_closing.s: src/loop_closing.cpp.s
+
+.PHONY : src/loop_closing.s
+
+# target to generate assembly for a file
+src/loop_closing.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/loop_closing.cpp.s
+.PHONY : src/loop_closing.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/matching_result.o: src/matching_result.cpp.o
+
+.PHONY : src/matching_result.o
+
+# target to build an object file
+src/matching_result.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/matching_result.cpp.o
+.PHONY : src/matching_result.cpp.o
+
+src/matching_result.i: src/matching_result.cpp.i
+
+.PHONY : src/matching_result.i
+
+# target to preprocess a source file
+src/matching_result.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/matching_result.cpp.i
+.PHONY : src/matching_result.cpp.i
+
+src/matching_result.s: src/matching_result.cpp.s
+
+.PHONY : src/matching_result.s
+
+# target to generate assembly for a file
+src/matching_result.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/matching_result.cpp.s
+.PHONY : src/matching_result.cpp.s
+
+src/misc.o: src/misc.cpp.o
+
+.PHONY : src/misc.o
+
+# target to build an object file
+src/misc.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/misc.cpp.o
+.PHONY : src/misc.cpp.o
+
+src/misc.i: src/misc.cpp.i
+
+.PHONY : src/misc.i
+
+# target to preprocess a source file
+src/misc.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/misc.cpp.i
+.PHONY : src/misc.cpp.i
+
+src/misc.s: src/misc.cpp.s
+
+.PHONY : src/misc.s
+
+# target to generate assembly for a file
+src/misc.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/misc.cpp.s
+.PHONY : src/misc.cpp.s
+
+src/moc_glviewer.o: src/moc_glviewer.cpp.o
+
+.PHONY : src/moc_glviewer.o
+
+# target to build an object file
+src/moc_glviewer.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/moc_glviewer.cpp.o
+.PHONY : src/moc_glviewer.cpp.o
+
+src/moc_glviewer.i: src/moc_glviewer.cpp.i
+
+.PHONY : src/moc_glviewer.i
+
+# target to preprocess a source file
+src/moc_glviewer.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/moc_glviewer.cpp.i
+.PHONY : src/moc_glviewer.cpp.i
+
+src/moc_glviewer.s: src/moc_glviewer.cpp.s
+
+.PHONY : src/moc_glviewer.s
+
+# target to generate assembly for a file
+src/moc_glviewer.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/moc_glviewer.cpp.s
+.PHONY : src/moc_glviewer.cpp.s
+
+src/moc_graph_manager.o: src/moc_graph_manager.cpp.o
+
+.PHONY : src/moc_graph_manager.o
+
+# target to build an object file
+src/moc_graph_manager.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/moc_graph_manager.cpp.o
+.PHONY : src/moc_graph_manager.cpp.o
+
+src/moc_graph_manager.i: src/moc_graph_manager.cpp.i
+
+.PHONY : src/moc_graph_manager.i
+
+# target to preprocess a source file
+src/moc_graph_manager.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/moc_graph_manager.cpp.i
+.PHONY : src/moc_graph_manager.cpp.i
+
+src/moc_graph_manager.s: src/moc_graph_manager.cpp.s
+
+.PHONY : src/moc_graph_manager.s
+
+# target to generate assembly for a file
+src/moc_graph_manager.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/moc_graph_manager.cpp.s
+.PHONY : src/moc_graph_manager.cpp.s
+
+src/moc_openni_listener.o: src/moc_openni_listener.cpp.o
+
+.PHONY : src/moc_openni_listener.o
+
+# target to build an object file
+src/moc_openni_listener.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/moc_openni_listener.cpp.o
+.PHONY : src/moc_openni_listener.cpp.o
+
+src/moc_openni_listener.i: src/moc_openni_listener.cpp.i
+
+.PHONY : src/moc_openni_listener.i
+
+# target to preprocess a source file
+src/moc_openni_listener.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/moc_openni_listener.cpp.i
+.PHONY : src/moc_openni_listener.cpp.i
+
+src/moc_openni_listener.s: src/moc_openni_listener.cpp.s
+
+.PHONY : src/moc_openni_listener.s
+
+# target to generate assembly for a file
+src/moc_openni_listener.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/moc_openni_listener.cpp.s
+.PHONY : src/moc_openni_listener.cpp.s
+
+src/moc_qt_gui.o: src/moc_qt_gui.cpp.o
+
+.PHONY : src/moc_qt_gui.o
+
+# target to build an object file
+src/moc_qt_gui.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/moc_qt_gui.cpp.o
+.PHONY : src/moc_qt_gui.cpp.o
+
+src/moc_qt_gui.i: src/moc_qt_gui.cpp.i
+
+.PHONY : src/moc_qt_gui.i
+
+# target to preprocess a source file
+src/moc_qt_gui.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/moc_qt_gui.cpp.i
+.PHONY : src/moc_qt_gui.cpp.i
+
+src/moc_qt_gui.s: src/moc_qt_gui.cpp.s
+
+.PHONY : src/moc_qt_gui.s
+
+# target to generate assembly for a file
+src/moc_qt_gui.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/moc_qt_gui.cpp.s
+.PHONY : src/moc_qt_gui.cpp.s
+
+src/moc_qtros.o: src/moc_qtros.cpp.o
+
+.PHONY : src/moc_qtros.o
+
+# target to build an object file
+src/moc_qtros.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/moc_qtros.cpp.o
+.PHONY : src/moc_qtros.cpp.o
+
+src/moc_qtros.i: src/moc_qtros.cpp.i
+
+.PHONY : src/moc_qtros.i
+
+# target to preprocess a source file
+src/moc_qtros.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/moc_qtros.cpp.i
+.PHONY : src/moc_qtros.cpp.i
+
+src/moc_qtros.s: src/moc_qtros.cpp.s
+
+.PHONY : src/moc_qtros.s
+
+# target to generate assembly for a file
+src/moc_qtros.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/moc_qtros.cpp.s
+.PHONY : src/moc_qtros.cpp.s
+
+src/moc_ros_service_ui.o: src/moc_ros_service_ui.cpp.o
+
+.PHONY : src/moc_ros_service_ui.o
+
+# target to build an object file
+src/moc_ros_service_ui.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/moc_ros_service_ui.cpp.o
+.PHONY : src/moc_ros_service_ui.cpp.o
+
+src/moc_ros_service_ui.i: src/moc_ros_service_ui.cpp.i
+
+.PHONY : src/moc_ros_service_ui.i
+
+# target to preprocess a source file
+src/moc_ros_service_ui.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/moc_ros_service_ui.cpp.i
+.PHONY : src/moc_ros_service_ui.cpp.i
+
+src/moc_ros_service_ui.s: src/moc_ros_service_ui.cpp.s
+
+.PHONY : src/moc_ros_service_ui.s
+
+# target to generate assembly for a file
+src/moc_ros_service_ui.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/moc_ros_service_ui.cpp.s
+.PHONY : src/moc_ros_service_ui.cpp.s
+
+src/node.o: src/node.cpp.o
+
+.PHONY : src/node.o
+
+# target to build an object file
+src/node.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/node.cpp.o
+.PHONY : src/node.cpp.o
+
+src/node.i: src/node.cpp.i
+
+.PHONY : src/node.i
+
+# target to preprocess a source file
+src/node.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/node.cpp.i
+.PHONY : src/node.cpp.i
+
+src/node.s: src/node.cpp.s
+
+.PHONY : src/node.s
+
+# target to generate assembly for a file
+src/node.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/node.cpp.s
+.PHONY : src/node.cpp.s
+
+src/openni_listener.o: src/openni_listener.cpp.o
+
+.PHONY : src/openni_listener.o
+
+# target to build an object file
+src/openni_listener.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/openni_listener.cpp.o
+.PHONY : src/openni_listener.cpp.o
+
+src/openni_listener.i: src/openni_listener.cpp.i
+
+.PHONY : src/openni_listener.i
+
+# target to preprocess a source file
+src/openni_listener.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/openni_listener.cpp.i
+.PHONY : src/openni_listener.cpp.i
+
+src/openni_listener.s: src/openni_listener.cpp.s
+
+.PHONY : src/openni_listener.s
+
+# target to generate assembly for a file
+src/openni_listener.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/openni_listener.cpp.s
+.PHONY : src/openni_listener.cpp.s
+
+src/parameter_server.o: src/parameter_server.cpp.o
+
+.PHONY : src/parameter_server.o
+
+# target to build an object file
+src/parameter_server.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/parameter_server.cpp.o
+.PHONY : src/parameter_server.cpp.o
+
+src/parameter_server.i: src/parameter_server.cpp.i
+
+.PHONY : src/parameter_server.i
+
+# target to preprocess a source file
+src/parameter_server.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/parameter_server.cpp.i
+.PHONY : src/parameter_server.cpp.i
+
+src/parameter_server.s: src/parameter_server.cpp.s
+
+.PHONY : src/parameter_server.s
+
+# target to generate assembly for a file
+src/parameter_server.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/parameter_server.cpp.s
+.PHONY : src/parameter_server.cpp.s
+
+src/qt_gui.o: src/qt_gui.cpp.o
+
+.PHONY : src/qt_gui.o
+
+# target to build an object file
+src/qt_gui.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/qt_gui.cpp.o
+.PHONY : src/qt_gui.cpp.o
+
+src/qt_gui.i: src/qt_gui.cpp.i
+
+.PHONY : src/qt_gui.i
+
+# target to preprocess a source file
+src/qt_gui.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/qt_gui.cpp.i
+.PHONY : src/qt_gui.cpp.i
+
+src/qt_gui.s: src/qt_gui.cpp.s
+
+.PHONY : src/qt_gui.s
+
+# target to generate assembly for a file
+src/qt_gui.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/qt_gui.cpp.s
+.PHONY : src/qt_gui.cpp.s
+
+src/qtros.o: src/qtros.cpp.o
+
+.PHONY : src/qtros.o
+
+# target to build an object file
+src/qtros.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/qtros.cpp.o
+.PHONY : src/qtros.cpp.o
+
+src/qtros.i: src/qtros.cpp.i
+
+.PHONY : src/qtros.i
+
+# target to preprocess a source file
+src/qtros.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/qtros.cpp.i
+.PHONY : src/qtros.cpp.i
+
+src/qtros.s: src/qtros.cpp.s
+
+.PHONY : src/qtros.s
+
+# target to generate assembly for a file
+src/qtros.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/qtros.cpp.s
+.PHONY : src/qtros.cpp.s
+
+src/ros_service_ui.o: src/ros_service_ui.cpp.o
+
+.PHONY : src/ros_service_ui.o
+
+# target to build an object file
+src/ros_service_ui.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/ros_service_ui.cpp.o
+.PHONY : src/ros_service_ui.cpp.o
+
+src/ros_service_ui.i: src/ros_service_ui.cpp.i
+
+.PHONY : src/ros_service_ui.i
+
+# target to preprocess a source file
+src/ros_service_ui.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/ros_service_ui.cpp.i
+.PHONY : src/ros_service_ui.cpp.i
+
+src/ros_service_ui.s: src/ros_service_ui.cpp.s
+
+.PHONY : src/ros_service_ui.s
+
+# target to generate assembly for a file
+src/ros_service_ui.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/ros_service_ui.cpp.s
+.PHONY : src/ros_service_ui.cpp.s
+
+src/scoped_timer.o: src/scoped_timer.cpp.o
+
+.PHONY : src/scoped_timer.o
+
+# target to build an object file
+src/scoped_timer.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/scoped_timer.cpp.o
+.PHONY : src/scoped_timer.cpp.o
+
+src/scoped_timer.i: src/scoped_timer.cpp.i
+
+.PHONY : src/scoped_timer.i
+
+# target to preprocess a source file
+src/scoped_timer.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/scoped_timer.cpp.i
+.PHONY : src/scoped_timer.cpp.i
+
+src/scoped_timer.s: src/scoped_timer.cpp.s
+
+.PHONY : src/scoped_timer.s
+
+# target to generate assembly for a file
+src/scoped_timer.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/scoped_timer.cpp.s
+.PHONY : src/scoped_timer.cpp.s
+
+src/sift_gpu_wrapper.o: src/sift_gpu_wrapper.cpp.o
+
+.PHONY : src/sift_gpu_wrapper.o
+
+# target to build an object file
+src/sift_gpu_wrapper.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/sift_gpu_wrapper.cpp.o
+.PHONY : src/sift_gpu_wrapper.cpp.o
+
+src/sift_gpu_wrapper.i: src/sift_gpu_wrapper.cpp.i
+
+.PHONY : src/sift_gpu_wrapper.i
+
+# target to preprocess a source file
+src/sift_gpu_wrapper.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/sift_gpu_wrapper.cpp.i
+.PHONY : src/sift_gpu_wrapper.cpp.i
+
+src/sift_gpu_wrapper.s: src/sift_gpu_wrapper.cpp.s
+
+.PHONY : src/sift_gpu_wrapper.s
+
+# target to generate assembly for a file
+src/sift_gpu_wrapper.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/sift_gpu_wrapper.cpp.s
+.PHONY : src/sift_gpu_wrapper.cpp.s
+
+src/transformation_estimation.o: src/transformation_estimation.cpp.o
+
+.PHONY : src/transformation_estimation.o
+
+# target to build an object file
+src/transformation_estimation.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/transformation_estimation.cpp.o
+.PHONY : src/transformation_estimation.cpp.o
+
+src/transformation_estimation.i: src/transformation_estimation.cpp.i
+
+.PHONY : src/transformation_estimation.i
+
+# target to preprocess a source file
+src/transformation_estimation.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/transformation_estimation.cpp.i
+.PHONY : src/transformation_estimation.cpp.i
+
+src/transformation_estimation.s: src/transformation_estimation.cpp.s
+
+.PHONY : src/transformation_estimation.s
+
+# target to generate assembly for a file
+src/transformation_estimation.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/transformation_estimation.cpp.s
+.PHONY : src/transformation_estimation.cpp.s
+
+src/transformation_estimation_euclidean.o: src/transformation_estimation_euclidean.cpp.o
+
+.PHONY : src/transformation_estimation_euclidean.o
+
+# target to build an object file
+src/transformation_estimation_euclidean.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/transformation_estimation_euclidean.cpp.o
+.PHONY : src/transformation_estimation_euclidean.cpp.o
+
+src/transformation_estimation_euclidean.i: src/transformation_estimation_euclidean.cpp.i
+
+.PHONY : src/transformation_estimation_euclidean.i
+
+# target to preprocess a source file
+src/transformation_estimation_euclidean.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/transformation_estimation_euclidean.cpp.i
+.PHONY : src/transformation_estimation_euclidean.cpp.i
+
+src/transformation_estimation_euclidean.s: src/transformation_estimation_euclidean.cpp.s
+
+.PHONY : src/transformation_estimation_euclidean.s
+
+# target to generate assembly for a file
+src/transformation_estimation_euclidean.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f rgbdslam_v2/CMakeFiles/rgbdslam.dir/build.make rgbdslam_v2/CMakeFiles/rgbdslam.dir/src/transformation_estimation_euclidean.cpp.s
+.PHONY : src/transformation_estimation_euclidean.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -530,6 +1421,105 @@ help:
 	@echo "... pcl_msgs_generate_messages_lisp"
 	@echo "... rgbdslam_genpy"
 	@echo "... rgbdslam"
+	@echo "... src/ColorOctomapServer.o"
+	@echo "... src/ColorOctomapServer.i"
+	@echo "... src/ColorOctomapServer.s"
+	@echo "... src/covariance_estimation.o"
+	@echo "... src/covariance_estimation.i"
+	@echo "... src/covariance_estimation.s"
+	@echo "... src/feature_adjuster.o"
+	@echo "... src/feature_adjuster.i"
+	@echo "... src/feature_adjuster.s"
+	@echo "... src/features.o"
+	@echo "... src/features.i"
+	@echo "... src/features.s"
+	@echo "... src/gicp-fallback.o"
+	@echo "... src/gicp-fallback.i"
+	@echo "... src/gicp-fallback.s"
+	@echo "... src/glviewer.o"
+	@echo "... src/glviewer.i"
+	@echo "... src/glviewer.s"
+	@echo "... src/graph_manager.o"
+	@echo "... src/graph_manager.i"
+	@echo "... src/graph_manager.s"
+	@echo "... src/graph_manager2.o"
+	@echo "... src/graph_manager2.i"
+	@echo "... src/graph_manager2.s"
+	@echo "... src/graph_mgr_io.o"
+	@echo "... src/graph_mgr_io.i"
+	@echo "... src/graph_mgr_io.s"
+	@echo "... src/graph_mgr_odom.o"
+	@echo "... src/graph_mgr_odom.i"
+	@echo "... src/graph_mgr_odom.s"
+	@echo "... src/header.o"
+	@echo "... src/header.i"
+	@echo "... src/header.s"
+	@echo "... src/icp.o"
+	@echo "... src/icp.i"
+	@echo "... src/icp.s"
+	@echo "... src/landmark.o"
+	@echo "... src/landmark.i"
+	@echo "... src/landmark.s"
+	@echo "... src/loop_closing.o"
+	@echo "... src/loop_closing.i"
+	@echo "... src/loop_closing.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/matching_result.o"
+	@echo "... src/matching_result.i"
+	@echo "... src/matching_result.s"
+	@echo "... src/misc.o"
+	@echo "... src/misc.i"
+	@echo "... src/misc.s"
+	@echo "... src/moc_glviewer.o"
+	@echo "... src/moc_glviewer.i"
+	@echo "... src/moc_glviewer.s"
+	@echo "... src/moc_graph_manager.o"
+	@echo "... src/moc_graph_manager.i"
+	@echo "... src/moc_graph_manager.s"
+	@echo "... src/moc_openni_listener.o"
+	@echo "... src/moc_openni_listener.i"
+	@echo "... src/moc_openni_listener.s"
+	@echo "... src/moc_qt_gui.o"
+	@echo "... src/moc_qt_gui.i"
+	@echo "... src/moc_qt_gui.s"
+	@echo "... src/moc_qtros.o"
+	@echo "... src/moc_qtros.i"
+	@echo "... src/moc_qtros.s"
+	@echo "... src/moc_ros_service_ui.o"
+	@echo "... src/moc_ros_service_ui.i"
+	@echo "... src/moc_ros_service_ui.s"
+	@echo "... src/node.o"
+	@echo "... src/node.i"
+	@echo "... src/node.s"
+	@echo "... src/openni_listener.o"
+	@echo "... src/openni_listener.i"
+	@echo "... src/openni_listener.s"
+	@echo "... src/parameter_server.o"
+	@echo "... src/parameter_server.i"
+	@echo "... src/parameter_server.s"
+	@echo "... src/qt_gui.o"
+	@echo "... src/qt_gui.i"
+	@echo "... src/qt_gui.s"
+	@echo "... src/qtros.o"
+	@echo "... src/qtros.i"
+	@echo "... src/qtros.s"
+	@echo "... src/ros_service_ui.o"
+	@echo "... src/ros_service_ui.i"
+	@echo "... src/ros_service_ui.s"
+	@echo "... src/scoped_timer.o"
+	@echo "... src/scoped_timer.i"
+	@echo "... src/scoped_timer.s"
+	@echo "... src/sift_gpu_wrapper.o"
+	@echo "... src/sift_gpu_wrapper.i"
+	@echo "... src/sift_gpu_wrapper.s"
+	@echo "... src/transformation_estimation.o"
+	@echo "... src/transformation_estimation.i"
+	@echo "... src/transformation_estimation.s"
+	@echo "... src/transformation_estimation_euclidean.o"
+	@echo "... src/transformation_estimation_euclidean.i"
+	@echo "... src/transformation_estimation_euclidean.s"
 .PHONY : help
 
 
