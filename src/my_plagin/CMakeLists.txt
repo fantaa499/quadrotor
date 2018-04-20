@@ -58,8 +58,12 @@ include_directories(
 
 
 
-add_executable(oct src/oct.cpp)
-target_link_libraries(oct ${catkin_LIBRARIES} ${OCTOMAP_LIBRARIES} ${PCL_LIBRARIES})
-#add_dependencies(oct my_plagin_gencpp)
+add_executable(genPointCloud src/genPointCloud.cpp)
+target_link_libraries(genPointCloud ${catkin_LIBRARIES} ${OCTOMAP_LIBRARIES} ${PCL_LIBRARIES})
+
+add_executable(genOctTree src/genOctTree.cpp)
+target_link_libraries(genOctTree ${catkin_LIBRARIES} ${OCTOMAP_LIBRARIES} ${PCL_LIBRARIES})
+
+#add_dependencies(genPointCloud my_plagin_gencpp)
 install(DIRECTORY launch DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 #############

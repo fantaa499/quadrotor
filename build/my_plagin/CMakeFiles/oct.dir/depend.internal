@@ -280,8 +280,10 @@ my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o
  /usr/include/pcl-1.7/pcl/PolygonMesh.h
  /usr/include/pcl-1.7/pcl/TextureMesh.h
  /usr/include/pcl-1.7/pcl/Vertices.h
+ /usr/include/pcl-1.7/pcl/common/common.h
  /usr/include/pcl-1.7/pcl/common/concatenate.h
  /usr/include/pcl-1.7/pcl/common/copy_point.h
+ /usr/include/pcl-1.7/pcl/common/impl/common.hpp
  /usr/include/pcl-1.7/pcl/common/impl/copy_point.hpp
  /usr/include/pcl-1.7/pcl/common/impl/io.hpp
  /usr/include/pcl-1.7/pcl/common/io.h
@@ -292,6 +294,8 @@ my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o
  /usr/include/pcl-1.7/pcl/filters/boost.h
  /usr/include/pcl-1.7/pcl/filters/filter.h
  /usr/include/pcl-1.7/pcl/filters/impl/filter.hpp
+ /usr/include/pcl-1.7/pcl/filters/impl/voxel_grid.hpp
+ /usr/include/pcl-1.7/pcl/filters/voxel_grid.h
  /usr/include/pcl-1.7/pcl/for_each_type.h
  /usr/include/pcl-1.7/pcl/impl/pcl_base.hpp
  /usr/include/pcl-1.7/pcl/impl/point_types.hpp

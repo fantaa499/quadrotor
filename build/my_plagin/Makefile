@@ -90,6 +90,17 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -121,17 +132,6 @@ install/local: preinstall
 install/local/fast: install/local
 
 .PHONY : install/local/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -166,6 +166,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule
+.PHONY : my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+pcl_msgs_generate_messages_lisp: my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : pcl_msgs_generate_messages_lisp
+
+# fast build rule for target.
+pcl_msgs_generate_messages_lisp/fast:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build.make my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build
+.PHONY : pcl_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
 my_plagin/CMakeFiles/pcl_msgs_generate_messages_py.dir/rule:
 	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/pcl_msgs_generate_messages_py.dir/rule
 .PHONY : my_plagin/CMakeFiles/pcl_msgs_generate_messages_py.dir/rule
@@ -194,21 +209,6 @@ pcl_msgs_generate_messages_eus: my_plagin/CMakeFiles/pcl_msgs_generate_messages_
 pcl_msgs_generate_messages_eus/fast:
 	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/pcl_msgs_generate_messages_eus.dir/build.make my_plagin/CMakeFiles/pcl_msgs_generate_messages_eus.dir/build
 .PHONY : pcl_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-my_plagin/CMakeFiles/pcl_ros_gencfg.dir/rule:
-	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/pcl_ros_gencfg.dir/rule
-.PHONY : my_plagin/CMakeFiles/pcl_ros_gencfg.dir/rule
-
-# Convenience name for target.
-pcl_ros_gencfg: my_plagin/CMakeFiles/pcl_ros_gencfg.dir/rule
-
-.PHONY : pcl_ros_gencfg
-
-# fast build rule for target.
-pcl_ros_gencfg/fast:
-	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/pcl_ros_gencfg.dir/build.make my_plagin/CMakeFiles/pcl_ros_gencfg.dir/build
-.PHONY : pcl_ros_gencfg/fast
 
 # Convenience name for target.
 my_plagin/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/rule:
@@ -241,61 +241,103 @@ pcl_msgs_generate_messages_nodejs/fast:
 .PHONY : pcl_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
-my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule:
-	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule
-.PHONY : my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule
+my_plagin/CMakeFiles/genPointCloud.dir/rule:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/genPointCloud.dir/rule
+.PHONY : my_plagin/CMakeFiles/genPointCloud.dir/rule
 
 # Convenience name for target.
-pcl_msgs_generate_messages_lisp: my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule
+genPointCloud: my_plagin/CMakeFiles/genPointCloud.dir/rule
 
-.PHONY : pcl_msgs_generate_messages_lisp
+.PHONY : genPointCloud
 
 # fast build rule for target.
-pcl_msgs_generate_messages_lisp/fast:
-	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build.make my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build
-.PHONY : pcl_msgs_generate_messages_lisp/fast
+genPointCloud/fast:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genPointCloud.dir/build.make my_plagin/CMakeFiles/genPointCloud.dir/build
+.PHONY : genPointCloud/fast
 
 # Convenience name for target.
-my_plagin/CMakeFiles/oct.dir/rule:
-	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/oct.dir/rule
-.PHONY : my_plagin/CMakeFiles/oct.dir/rule
+my_plagin/CMakeFiles/pcl_ros_gencfg.dir/rule:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/pcl_ros_gencfg.dir/rule
+.PHONY : my_plagin/CMakeFiles/pcl_ros_gencfg.dir/rule
 
 # Convenience name for target.
-oct: my_plagin/CMakeFiles/oct.dir/rule
+pcl_ros_gencfg: my_plagin/CMakeFiles/pcl_ros_gencfg.dir/rule
 
-.PHONY : oct
+.PHONY : pcl_ros_gencfg
 
 # fast build rule for target.
-oct/fast:
-	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/oct.dir/build.make my_plagin/CMakeFiles/oct.dir/build
-.PHONY : oct/fast
+pcl_ros_gencfg/fast:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/pcl_ros_gencfg.dir/build.make my_plagin/CMakeFiles/pcl_ros_gencfg.dir/build
+.PHONY : pcl_ros_gencfg/fast
 
-src/oct.o: src/oct.cpp.o
+# Convenience name for target.
+my_plagin/CMakeFiles/genOctTree.dir/rule:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/genOctTree.dir/rule
+.PHONY : my_plagin/CMakeFiles/genOctTree.dir/rule
 
-.PHONY : src/oct.o
+# Convenience name for target.
+genOctTree: my_plagin/CMakeFiles/genOctTree.dir/rule
+
+.PHONY : genOctTree
+
+# fast build rule for target.
+genOctTree/fast:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genOctTree.dir/build.make my_plagin/CMakeFiles/genOctTree.dir/build
+.PHONY : genOctTree/fast
+
+src/genOctTree.o: src/genOctTree.cpp.o
+
+.PHONY : src/genOctTree.o
 
 # target to build an object file
-src/oct.cpp.o:
-	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/oct.dir/build.make my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o
-.PHONY : src/oct.cpp.o
+src/genOctTree.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genOctTree.dir/build.make my_plagin/CMakeFiles/genOctTree.dir/src/genOctTree.cpp.o
+.PHONY : src/genOctTree.cpp.o
 
-src/oct.i: src/oct.cpp.i
+src/genOctTree.i: src/genOctTree.cpp.i
 
-.PHONY : src/oct.i
+.PHONY : src/genOctTree.i
 
 # target to preprocess a source file
-src/oct.cpp.i:
-	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/oct.dir/build.make my_plagin/CMakeFiles/oct.dir/src/oct.cpp.i
-.PHONY : src/oct.cpp.i
+src/genOctTree.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genOctTree.dir/build.make my_plagin/CMakeFiles/genOctTree.dir/src/genOctTree.cpp.i
+.PHONY : src/genOctTree.cpp.i
 
-src/oct.s: src/oct.cpp.s
+src/genOctTree.s: src/genOctTree.cpp.s
 
-.PHONY : src/oct.s
+.PHONY : src/genOctTree.s
 
 # target to generate assembly for a file
-src/oct.cpp.s:
-	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/oct.dir/build.make my_plagin/CMakeFiles/oct.dir/src/oct.cpp.s
-.PHONY : src/oct.cpp.s
+src/genOctTree.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genOctTree.dir/build.make my_plagin/CMakeFiles/genOctTree.dir/src/genOctTree.cpp.s
+.PHONY : src/genOctTree.cpp.s
+
+src/genPointCloud.o: src/genPointCloud.cpp.o
+
+.PHONY : src/genPointCloud.o
+
+# target to build an object file
+src/genPointCloud.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genPointCloud.dir/build.make my_plagin/CMakeFiles/genPointCloud.dir/src/genPointCloud.cpp.o
+.PHONY : src/genPointCloud.cpp.o
+
+src/genPointCloud.i: src/genPointCloud.cpp.i
+
+.PHONY : src/genPointCloud.i
+
+# target to preprocess a source file
+src/genPointCloud.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genPointCloud.dir/build.make my_plagin/CMakeFiles/genPointCloud.dir/src/genPointCloud.cpp.i
+.PHONY : src/genPointCloud.cpp.i
+
+src/genPointCloud.s: src/genPointCloud.cpp.s
+
+.PHONY : src/genPointCloud.s
+
+# target to generate assembly for a file
+src/genPointCloud.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genPointCloud.dir/build.make my_plagin/CMakeFiles/genPointCloud.dir/src/genPointCloud.cpp.s
+.PHONY : src/genPointCloud.cpp.s
 
 # Help Target
 help:
@@ -306,20 +348,24 @@ help:
 	@echo "... install"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... test"
+	@echo "... pcl_msgs_generate_messages_lisp"
 	@echo "... pcl_msgs_generate_messages_py"
 	@echo "... pcl_msgs_generate_messages_eus"
-	@echo "... pcl_ros_gencfg"
 	@echo "... pcl_msgs_generate_messages_cpp"
 	@echo "... pcl_msgs_generate_messages_nodejs"
-	@echo "... pcl_msgs_generate_messages_lisp"
-	@echo "... oct"
+	@echo "... genPointCloud"
+	@echo "... pcl_ros_gencfg"
+	@echo "... genOctTree"
 	@echo "... list_install_components"
 	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... test"
-	@echo "... src/oct.o"
-	@echo "... src/oct.i"
-	@echo "... src/oct.s"
+	@echo "... src/genOctTree.o"
+	@echo "... src/genOctTree.i"
+	@echo "... src/genOctTree.s"
+	@echo "... src/genPointCloud.o"
+	@echo "... src/genPointCloud.i"
+	@echo "... src/genPointCloud.s"
 .PHONY : help
 
 

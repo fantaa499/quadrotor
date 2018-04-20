@@ -279,8 +279,10 @@ my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/PointIndice
 my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/PolygonMesh.h
 my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/TextureMesh.h
 my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/Vertices.h
+my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/common/common.h
 my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/common/concatenate.h
 my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/common/copy_point.h
+my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/common/impl/common.hpp
 my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/common/impl/copy_point.hpp
 my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/common/impl/io.hpp
 my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/common/io.h
@@ -291,6 +293,8 @@ my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/exceptions.
 my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/filters/boost.h
 my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/filters/filter.h
 my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/filters/impl/filter.hpp
+my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/filters/impl/voxel_grid.hpp
+my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/filters/voxel_grid.h
 my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/for_each_type.h
 my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/impl/pcl_base.hpp
 my_plagin/CMakeFiles/oct.dir/src/oct.cpp.o: /usr/include/pcl-1.7/pcl/impl/point_types.hpp

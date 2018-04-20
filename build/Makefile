@@ -3247,6 +3247,19 @@ message_to_tf/fast:
 .PHONY : message_to_tf/fast
 
 #=============================================================================
+# Target rules for targets named pcl_msgs_generate_messages_lisp
+
+# Build rule for target.
+pcl_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_msgs_generate_messages_lisp
+.PHONY : pcl_msgs_generate_messages_lisp
+
+# fast build rule for target.
+pcl_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build.make my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build
+.PHONY : pcl_msgs_generate_messages_lisp/fast
+
+#=============================================================================
 # Target rules for targets named pcl_msgs_generate_messages_py
 
 # Build rule for target.
@@ -3271,19 +3284,6 @@ pcl_msgs_generate_messages_eus: cmake_check_build_system
 pcl_msgs_generate_messages_eus/fast:
 	$(MAKE) -f my_plagin/CMakeFiles/pcl_msgs_generate_messages_eus.dir/build.make my_plagin/CMakeFiles/pcl_msgs_generate_messages_eus.dir/build
 .PHONY : pcl_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named pcl_ros_gencfg
-
-# Build rule for target.
-pcl_ros_gencfg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pcl_ros_gencfg
-.PHONY : pcl_ros_gencfg
-
-# fast build rule for target.
-pcl_ros_gencfg/fast:
-	$(MAKE) -f my_plagin/CMakeFiles/pcl_ros_gencfg.dir/build.make my_plagin/CMakeFiles/pcl_ros_gencfg.dir/build
-.PHONY : pcl_ros_gencfg/fast
 
 #=============================================================================
 # Target rules for targets named pcl_msgs_generate_messages_cpp
@@ -3312,30 +3312,43 @@ pcl_msgs_generate_messages_nodejs/fast:
 .PHONY : pcl_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named pcl_msgs_generate_messages_lisp
+# Target rules for targets named genPointCloud
 
 # Build rule for target.
-pcl_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pcl_msgs_generate_messages_lisp
-.PHONY : pcl_msgs_generate_messages_lisp
+genPointCloud: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 genPointCloud
+.PHONY : genPointCloud
 
 # fast build rule for target.
-pcl_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build.make my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build
-.PHONY : pcl_msgs_generate_messages_lisp/fast
+genPointCloud/fast:
+	$(MAKE) -f my_plagin/CMakeFiles/genPointCloud.dir/build.make my_plagin/CMakeFiles/genPointCloud.dir/build
+.PHONY : genPointCloud/fast
 
 #=============================================================================
-# Target rules for targets named oct
+# Target rules for targets named pcl_ros_gencfg
 
 # Build rule for target.
-oct: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 oct
-.PHONY : oct
+pcl_ros_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_ros_gencfg
+.PHONY : pcl_ros_gencfg
 
 # fast build rule for target.
-oct/fast:
-	$(MAKE) -f my_plagin/CMakeFiles/oct.dir/build.make my_plagin/CMakeFiles/oct.dir/build
-.PHONY : oct/fast
+pcl_ros_gencfg/fast:
+	$(MAKE) -f my_plagin/CMakeFiles/pcl_ros_gencfg.dir/build.make my_plagin/CMakeFiles/pcl_ros_gencfg.dir/build
+.PHONY : pcl_ros_gencfg/fast
+
+#=============================================================================
+# Target rules for targets named genOctTree
+
+# Build rule for target.
+genOctTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 genOctTree
+.PHONY : genOctTree
+
+# fast build rule for target.
+genOctTree/fast:
+	$(MAKE) -f my_plagin/CMakeFiles/genOctTree.dir/build.make my_plagin/CMakeFiles/genOctTree.dir/build
+.PHONY : genOctTree/fast
 
 #=============================================================================
 # Target rules for targets named hector_mapping_generate_messages_py
@@ -4341,13 +4354,14 @@ help:
 	@echo "... topic_tools_generate_messages_py"
 	@echo "... topic_tools_generate_messages_cpp"
 	@echo "... message_to_tf"
+	@echo "... pcl_msgs_generate_messages_lisp"
 	@echo "... pcl_msgs_generate_messages_py"
 	@echo "... pcl_msgs_generate_messages_eus"
-	@echo "... pcl_ros_gencfg"
 	@echo "... pcl_msgs_generate_messages_cpp"
 	@echo "... pcl_msgs_generate_messages_nodejs"
-	@echo "... pcl_msgs_generate_messages_lisp"
-	@echo "... oct"
+	@echo "... genPointCloud"
+	@echo "... pcl_ros_gencfg"
+	@echo "... genOctTree"
 	@echo "... hector_mapping_generate_messages_py"
 	@echo "... hector_mapping"
 	@echo "... hector_mapping_gennodejs"
