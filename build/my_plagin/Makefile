@@ -101,6 +101,17 @@ test/fast: test
 
 .PHONY : test/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: install/local
+
+.PHONY : install/local/fast
+
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -121,17 +132,6 @@ install/strip: preinstall
 install/strip/fast: install/strip
 
 .PHONY : install/strip/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: install/local
-
-.PHONY : install/local/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -285,6 +285,63 @@ genOctTree/fast:
 	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genOctTree.dir/build.make my_plagin/CMakeFiles/genOctTree.dir/build
 .PHONY : genOctTree/fast
 
+# Convenience name for target.
+my_plagin/CMakeFiles/moveToDestiny.dir/rule:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/moveToDestiny.dir/rule
+.PHONY : my_plagin/CMakeFiles/moveToDestiny.dir/rule
+
+# Convenience name for target.
+moveToDestiny: my_plagin/CMakeFiles/moveToDestiny.dir/rule
+
+.PHONY : moveToDestiny
+
+# fast build rule for target.
+moveToDestiny/fast:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/moveToDestiny.dir/build.make my_plagin/CMakeFiles/moveToDestiny.dir/build
+.PHONY : moveToDestiny/fast
+
+# Convenience name for target.
+my_plagin/CMakeFiles/genDestinyPoint.dir/rule:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/genDestinyPoint.dir/rule
+.PHONY : my_plagin/CMakeFiles/genDestinyPoint.dir/rule
+
+# Convenience name for target.
+genDestinyPoint: my_plagin/CMakeFiles/genDestinyPoint.dir/rule
+
+.PHONY : genDestinyPoint
+
+# fast build rule for target.
+genDestinyPoint/fast:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genDestinyPoint.dir/build.make my_plagin/CMakeFiles/genDestinyPoint.dir/build
+.PHONY : genDestinyPoint/fast
+
+src/genDestinyPoint.o: src/genDestinyPoint.cpp.o
+
+.PHONY : src/genDestinyPoint.o
+
+# target to build an object file
+src/genDestinyPoint.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genDestinyPoint.dir/build.make my_plagin/CMakeFiles/genDestinyPoint.dir/src/genDestinyPoint.cpp.o
+.PHONY : src/genDestinyPoint.cpp.o
+
+src/genDestinyPoint.i: src/genDestinyPoint.cpp.i
+
+.PHONY : src/genDestinyPoint.i
+
+# target to preprocess a source file
+src/genDestinyPoint.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genDestinyPoint.dir/build.make my_plagin/CMakeFiles/genDestinyPoint.dir/src/genDestinyPoint.cpp.i
+.PHONY : src/genDestinyPoint.cpp.i
+
+src/genDestinyPoint.s: src/genDestinyPoint.cpp.s
+
+.PHONY : src/genDestinyPoint.s
+
+# target to generate assembly for a file
+src/genDestinyPoint.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genDestinyPoint.dir/build.make my_plagin/CMakeFiles/genDestinyPoint.dir/src/genDestinyPoint.cpp.s
+.PHONY : src/genDestinyPoint.cpp.s
+
 src/genOctTree.o: src/genOctTree.cpp.o
 
 .PHONY : src/genOctTree.o
@@ -339,6 +396,33 @@ src/genPointCloud.cpp.s:
 	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genPointCloud.dir/build.make my_plagin/CMakeFiles/genPointCloud.dir/src/genPointCloud.cpp.s
 .PHONY : src/genPointCloud.cpp.s
 
+src/moveToDestiny.o: src/moveToDestiny.cpp.o
+
+.PHONY : src/moveToDestiny.o
+
+# target to build an object file
+src/moveToDestiny.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/moveToDestiny.dir/build.make my_plagin/CMakeFiles/moveToDestiny.dir/src/moveToDestiny.cpp.o
+.PHONY : src/moveToDestiny.cpp.o
+
+src/moveToDestiny.i: src/moveToDestiny.cpp.i
+
+.PHONY : src/moveToDestiny.i
+
+# target to preprocess a source file
+src/moveToDestiny.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/moveToDestiny.dir/build.make my_plagin/CMakeFiles/moveToDestiny.dir/src/moveToDestiny.cpp.i
+.PHONY : src/moveToDestiny.cpp.i
+
+src/moveToDestiny.s: src/moveToDestiny.cpp.s
+
+.PHONY : src/moveToDestiny.s
+
+# target to generate assembly for a file
+src/moveToDestiny.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/moveToDestiny.dir/build.make my_plagin/CMakeFiles/moveToDestiny.dir/src/moveToDestiny.cpp.s
+.PHONY : src/moveToDestiny.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -349,6 +433,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... install/local"
+	@echo "... list_install_components"
+	@echo "... install/strip"
 	@echo "... pcl_msgs_generate_messages_lisp"
 	@echo "... pcl_msgs_generate_messages_py"
 	@echo "... pcl_msgs_generate_messages_eus"
@@ -357,15 +444,20 @@ help:
 	@echo "... genPointCloud"
 	@echo "... pcl_ros_gencfg"
 	@echo "... genOctTree"
-	@echo "... list_install_components"
-	@echo "... install/strip"
-	@echo "... install/local"
+	@echo "... moveToDestiny"
+	@echo "... genDestinyPoint"
+	@echo "... src/genDestinyPoint.o"
+	@echo "... src/genDestinyPoint.i"
+	@echo "... src/genDestinyPoint.s"
 	@echo "... src/genOctTree.o"
 	@echo "... src/genOctTree.i"
 	@echo "... src/genOctTree.s"
 	@echo "... src/genPointCloud.o"
 	@echo "... src/genPointCloud.i"
 	@echo "... src/genPointCloud.s"
+	@echo "... src/moveToDestiny.o"
+	@echo "... src/moveToDestiny.i"
+	@echo "... src/moveToDestiny.s"
 .PHONY : help
 
 

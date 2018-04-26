@@ -1,5 +1,5 @@
 set(_CATKIN_CURRENT_PACKAGE "geometric_shapes")
-set(geometric_shapes_VERSION "0.5.3")
+set(geometric_shapes_VERSION "0.5.4")
 set(geometric_shapes_MAINTAINER "Dave Coleman <dave@dav.ee>, Isaac I. Y. Saito <130s@2000.jukuin.keio.ac.jp>")
 set(geometric_shapes_PACKAGE_FORMAT "1")
 set(geometric_shapes_BUILD_DEPENDS "assimp-dev" "boost" "eigen" "eigen_stl_containers" "libconsole-bridge-dev" "libqhull" "octomap" "pkg-config" "random_numbers" "resource_retriever" "shape_msgs" "visualization_msgs")

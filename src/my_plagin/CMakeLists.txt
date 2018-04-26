@@ -64,6 +64,12 @@ target_link_libraries(genPointCloud ${catkin_LIBRARIES} ${OCTOMAP_LIBRARIES} ${P
 add_executable(genOctTree src/genOctTree.cpp)
 target_link_libraries(genOctTree ${catkin_LIBRARIES} ${OCTOMAP_LIBRARIES} ${PCL_LIBRARIES})
 
+add_executable(moveToDestiny src/moveToDestiny.cpp)
+target_link_libraries(moveToDestiny ${catkin_LIBRARIES} ${OCTOMAP_LIBRARIES} ${PCL_LIBRARIES})
+
+add_executable(genDestinyPoint src/genDestinyPoint.cpp)
+target_link_libraries(genDestinyPoint ${catkin_LIBRARIES} ${OCTOMAP_LIBRARIES} ${PCL_LIBRARIES})
+
 #add_dependencies(genPointCloud my_plagin_gencpp)
 install(DIRECTORY launch DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 #############

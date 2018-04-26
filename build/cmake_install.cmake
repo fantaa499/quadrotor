@@ -158,7 +158,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/anton/Documents/catkin_ws/build/hector_quadrotor/hector_quadrotor_teleop/cmake_install.cmake")
   include("/home/anton/Documents/catkin_ws/build/hector_quadrotor/hector_quadrotor_controller_gazebo/cmake_install.cmake")
   include("/home/anton/Documents/catkin_ws/build/hector_quadrotor/hector_quadrotor_gazebo/cmake_install.cmake")
-  include("/home/anton/Documents/catkin_ws/build/srdfdom/cmake_install.cmake")
 
 endif()
 

@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "eigen_stl_containers;random_numbers;shape_msgs;visuali
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lgeometric_shapes;/opt/ros/kinetic/lib/liboctomap.so;/opt/ros/kinetic/lib/liboctomath.so;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so".split(';') if "-lgeometric_shapes;/opt/ros/kinetic/lib/liboctomap.so;/opt/ros/kinetic/lib/liboctomath.so;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so" != "" else []
 PROJECT_NAME = "geometric_shapes"
 PROJECT_SPACE_DIR = "/home/anton/Documents/catkin_ws/install"
-PROJECT_VERSION = "0.5.3"
+PROJECT_VERSION = "0.5.4"

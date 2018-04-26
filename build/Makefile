@@ -3351,6 +3351,32 @@ genOctTree/fast:
 .PHONY : genOctTree/fast
 
 #=============================================================================
+# Target rules for targets named moveToDestiny
+
+# Build rule for target.
+moveToDestiny: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moveToDestiny
+.PHONY : moveToDestiny
+
+# fast build rule for target.
+moveToDestiny/fast:
+	$(MAKE) -f my_plagin/CMakeFiles/moveToDestiny.dir/build.make my_plagin/CMakeFiles/moveToDestiny.dir/build
+.PHONY : moveToDestiny/fast
+
+#=============================================================================
+# Target rules for targets named genDestinyPoint
+
+# Build rule for target.
+genDestinyPoint: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 genDestinyPoint
+.PHONY : genDestinyPoint
+
+# fast build rule for target.
+genDestinyPoint/fast:
+	$(MAKE) -f my_plagin/CMakeFiles/genDestinyPoint.dir/build.make my_plagin/CMakeFiles/genDestinyPoint.dir/build
+.PHONY : genDestinyPoint/fast
+
+#=============================================================================
 # Target rules for targets named hector_mapping_generate_messages_py
 
 # Build rule for target.
@@ -4000,110 +4026,6 @@ controller_manager_msgs_generate_messages_cpp/fast:
 	$(MAKE) -f hector_quadrotor/hector_quadrotor_controller_gazebo/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/build.make hector_quadrotor/hector_quadrotor_controller_gazebo/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/build
 .PHONY : controller_manager_msgs_generate_messages_cpp/fast
 
-#=============================================================================
-# Target rules for targets named run_tests_srdfdom_rostest
-
-# Build rule for target.
-run_tests_srdfdom_rostest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_srdfdom_rostest
-.PHONY : run_tests_srdfdom_rostest
-
-# fast build rule for target.
-run_tests_srdfdom_rostest/fast:
-	$(MAKE) -f srdfdom/CMakeFiles/run_tests_srdfdom_rostest.dir/build.make srdfdom/CMakeFiles/run_tests_srdfdom_rostest.dir/build
-.PHONY : run_tests_srdfdom_rostest/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_srdfdom_rostest_test_srdf_parser.test
-
-# Build rule for target.
-_run_tests_srdfdom_rostest_test_srdf_parser.test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_srdfdom_rostest_test_srdf_parser.test
-.PHONY : _run_tests_srdfdom_rostest_test_srdf_parser.test
-
-# fast build rule for target.
-_run_tests_srdfdom_rostest_test_srdf_parser.test/fast:
-	$(MAKE) -f srdfdom/CMakeFiles/_run_tests_srdfdom_rostest_test_srdf_parser.test.dir/build.make srdfdom/CMakeFiles/_run_tests_srdfdom_rostest_test_srdf_parser.test.dir/build
-.PHONY : _run_tests_srdfdom_rostest_test_srdf_parser.test/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_srdfdom
-
-# Build rule for target.
-run_tests_srdfdom: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_srdfdom
-.PHONY : run_tests_srdfdom
-
-# fast build rule for target.
-run_tests_srdfdom/fast:
-	$(MAKE) -f srdfdom/CMakeFiles/run_tests_srdfdom.dir/build.make srdfdom/CMakeFiles/run_tests_srdfdom.dir/build
-.PHONY : run_tests_srdfdom/fast
-
-#=============================================================================
-# Target rules for targets named srdfdom
-
-# Build rule for target.
-srdfdom: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 srdfdom
-.PHONY : srdfdom
-
-# fast build rule for target.
-srdfdom/fast:
-	$(MAKE) -f srdfdom/CMakeFiles/srdfdom.dir/build.make srdfdom/CMakeFiles/srdfdom.dir/build
-.PHONY : srdfdom/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_srdfdom_rostest_test_srdf_parser.test
-
-# Build rule for target.
-run_tests_srdfdom_rostest_test_srdf_parser.test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_srdfdom_rostest_test_srdf_parser.test
-.PHONY : run_tests_srdfdom_rostest_test_srdf_parser.test
-
-# fast build rule for target.
-run_tests_srdfdom_rostest_test_srdf_parser.test/fast:
-	$(MAKE) -f srdfdom/CMakeFiles/run_tests_srdfdom_rostest_test_srdf_parser.test.dir/build.make srdfdom/CMakeFiles/run_tests_srdfdom_rostest_test_srdf_parser.test.dir/build
-.PHONY : run_tests_srdfdom_rostest_test_srdf_parser.test/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_srdfdom_rostest
-
-# Build rule for target.
-_run_tests_srdfdom_rostest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_srdfdom_rostest
-.PHONY : _run_tests_srdfdom_rostest
-
-# fast build rule for target.
-_run_tests_srdfdom_rostest/fast:
-	$(MAKE) -f srdfdom/CMakeFiles/_run_tests_srdfdom_rostest.dir/build.make srdfdom/CMakeFiles/_run_tests_srdfdom_rostest.dir/build
-.PHONY : _run_tests_srdfdom_rostest/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_srdfdom
-
-# Build rule for target.
-_run_tests_srdfdom: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_srdfdom
-.PHONY : _run_tests_srdfdom
-
-# fast build rule for target.
-_run_tests_srdfdom/fast:
-	$(MAKE) -f srdfdom/CMakeFiles/_run_tests_srdfdom.dir/build.make srdfdom/CMakeFiles/_run_tests_srdfdom.dir/build
-.PHONY : _run_tests_srdfdom/fast
-
-#=============================================================================
-# Target rules for targets named clean_test_results_srdfdom
-
-# Build rule for target.
-clean_test_results_srdfdom: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_srdfdom
-.PHONY : clean_test_results_srdfdom
-
-# fast build rule for target.
-clean_test_results_srdfdom/fast:
-	$(MAKE) -f srdfdom/CMakeFiles/clean_test_results_srdfdom.dir/build.make srdfdom/CMakeFiles/clean_test_results_srdfdom.dir/build
-.PHONY : clean_test_results_srdfdom/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -4362,6 +4284,8 @@ help:
 	@echo "... genPointCloud"
 	@echo "... pcl_ros_gencfg"
 	@echo "... genOctTree"
+	@echo "... moveToDestiny"
+	@echo "... genDestinyPoint"
 	@echo "... hector_mapping_generate_messages_py"
 	@echo "... hector_mapping"
 	@echo "... hector_mapping_gennodejs"
@@ -4412,14 +4336,6 @@ help:
 	@echo "... controller_manager_msgs_generate_messages_lisp"
 	@echo "... controller_manager_msgs_generate_messages_py"
 	@echo "... controller_manager_msgs_generate_messages_cpp"
-	@echo "... run_tests_srdfdom_rostest"
-	@echo "... _run_tests_srdfdom_rostest_test_srdf_parser.test"
-	@echo "... run_tests_srdfdom"
-	@echo "... srdfdom"
-	@echo "... run_tests_srdfdom_rostest_test_srdf_parser.test"
-	@echo "... _run_tests_srdfdom_rostest"
-	@echo "... _run_tests_srdfdom"
-	@echo "... clean_test_results_srdfdom"
 .PHONY : help
 
 
