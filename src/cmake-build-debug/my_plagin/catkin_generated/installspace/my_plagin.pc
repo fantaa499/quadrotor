@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: my_plagin
+Description: Description of my_plagin
+Version: 0.0.1
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

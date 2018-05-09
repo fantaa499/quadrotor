@@ -66,6 +66,7 @@ my_plagin/CMakeFiles/moveToDestiny.dir/src/moveToDestiny.cpp.o: /opt/ros/kinetic
 my_plagin/CMakeFiles/moveToDestiny.dir/src/moveToDestiny.cpp.o: /opt/ros/kinetic/include/ros/wall_timer.h
 my_plagin/CMakeFiles/moveToDestiny.dir/src/moveToDestiny.cpp.o: /opt/ros/kinetic/include/ros/wall_timer_options.h
 my_plagin/CMakeFiles/moveToDestiny.dir/src/moveToDestiny.cpp.o: /opt/ros/kinetic/include/rosconsole/macros_generated.h
+my_plagin/CMakeFiles/moveToDestiny.dir/src/moveToDestiny.cpp.o: /opt/ros/kinetic/include/std_msgs/Bool.h
 my_plagin/CMakeFiles/moveToDestiny.dir/src/moveToDestiny.cpp.o: /opt/ros/kinetic/include/std_msgs/Header.h
 my_plagin/CMakeFiles/moveToDestiny.dir/src/moveToDestiny.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
 my_plagin/CMakeFiles/moveToDestiny.dir/src/moveToDestiny.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h

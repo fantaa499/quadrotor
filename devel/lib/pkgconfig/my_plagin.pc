@@ -2,7 +2,7 @@ prefix=/home/anton/Documents/catkin_ws/devel
 
 Name: my_plagin
 Description: Description of my_plagin
-Version: 0.0.0
+Version: 0.0.1
 Cflags: 
 Libs: -L/home/anton/Documents/catkin_ws/devel/lib 
 Requires: 

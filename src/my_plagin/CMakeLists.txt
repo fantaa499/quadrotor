@@ -72,4 +72,11 @@ target_link_libraries(genDestinyPoint ${catkin_LIBRARIES} ${OCTOMAP_LIBRARIES} $
 
 #add_dependencies(genPointCloud my_plagin_gencpp)
 install(DIRECTORY launch DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
+install(DIRECTORY rviz_cfg DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 #############
+
+install(DIRECTORY include/${PROJECT_NAME}/
+  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+  FILES_MATCHING PATTERN "*.h"
+)
+
