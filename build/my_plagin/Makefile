@@ -166,6 +166,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+my_plagin/CMakeFiles/genDestinyPointRRT.dir/rule:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/genDestinyPointRRT.dir/rule
+.PHONY : my_plagin/CMakeFiles/genDestinyPointRRT.dir/rule
+
+# Convenience name for target.
+genDestinyPointRRT: my_plagin/CMakeFiles/genDestinyPointRRT.dir/rule
+
+.PHONY : genDestinyPointRRT
+
+# fast build rule for target.
+genDestinyPointRRT/fast:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genDestinyPointRRT.dir/build.make my_plagin/CMakeFiles/genDestinyPointRRT.dir/build
+.PHONY : genDestinyPointRRT/fast
+
+# Convenience name for target.
 my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule:
 	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule
 .PHONY : my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule
@@ -194,6 +209,21 @@ pcl_msgs_generate_messages_py: my_plagin/CMakeFiles/pcl_msgs_generate_messages_p
 pcl_msgs_generate_messages_py/fast:
 	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/pcl_msgs_generate_messages_py.dir/build.make my_plagin/CMakeFiles/pcl_msgs_generate_messages_py.dir/build
 .PHONY : pcl_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+my_plagin/CMakeFiles/makeGraphicInRviz.dir/rule:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/makeGraphicInRviz.dir/rule
+.PHONY : my_plagin/CMakeFiles/makeGraphicInRviz.dir/rule
+
+# Convenience name for target.
+makeGraphicInRviz: my_plagin/CMakeFiles/makeGraphicInRviz.dir/rule
+
+.PHONY : makeGraphicInRviz
+
+# fast build rule for target.
+makeGraphicInRviz/fast:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/makeGraphicInRviz.dir/build.make my_plagin/CMakeFiles/makeGraphicInRviz.dir/build
+.PHONY : makeGraphicInRviz/fast
 
 # Convenience name for target.
 my_plagin/CMakeFiles/pcl_msgs_generate_messages_eus.dir/rule:
@@ -342,6 +372,33 @@ src/genDestinyPoint.cpp.s:
 	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genDestinyPoint.dir/build.make my_plagin/CMakeFiles/genDestinyPoint.dir/src/genDestinyPoint.cpp.s
 .PHONY : src/genDestinyPoint.cpp.s
 
+src/genDestinyPointRRT.o: src/genDestinyPointRRT.cpp.o
+
+.PHONY : src/genDestinyPointRRT.o
+
+# target to build an object file
+src/genDestinyPointRRT.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genDestinyPointRRT.dir/build.make my_plagin/CMakeFiles/genDestinyPointRRT.dir/src/genDestinyPointRRT.cpp.o
+.PHONY : src/genDestinyPointRRT.cpp.o
+
+src/genDestinyPointRRT.i: src/genDestinyPointRRT.cpp.i
+
+.PHONY : src/genDestinyPointRRT.i
+
+# target to preprocess a source file
+src/genDestinyPointRRT.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genDestinyPointRRT.dir/build.make my_plagin/CMakeFiles/genDestinyPointRRT.dir/src/genDestinyPointRRT.cpp.i
+.PHONY : src/genDestinyPointRRT.cpp.i
+
+src/genDestinyPointRRT.s: src/genDestinyPointRRT.cpp.s
+
+.PHONY : src/genDestinyPointRRT.s
+
+# target to generate assembly for a file
+src/genDestinyPointRRT.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genDestinyPointRRT.dir/build.make my_plagin/CMakeFiles/genDestinyPointRRT.dir/src/genDestinyPointRRT.cpp.s
+.PHONY : src/genDestinyPointRRT.cpp.s
+
 src/genOctTree.o: src/genOctTree.cpp.o
 
 .PHONY : src/genOctTree.o
@@ -396,6 +453,33 @@ src/genPointCloud.cpp.s:
 	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genPointCloud.dir/build.make my_plagin/CMakeFiles/genPointCloud.dir/src/genPointCloud.cpp.s
 .PHONY : src/genPointCloud.cpp.s
 
+src/makeGraphicInRviz.o: src/makeGraphicInRviz.cpp.o
+
+.PHONY : src/makeGraphicInRviz.o
+
+# target to build an object file
+src/makeGraphicInRviz.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/makeGraphicInRviz.dir/build.make my_plagin/CMakeFiles/makeGraphicInRviz.dir/src/makeGraphicInRviz.cpp.o
+.PHONY : src/makeGraphicInRviz.cpp.o
+
+src/makeGraphicInRviz.i: src/makeGraphicInRviz.cpp.i
+
+.PHONY : src/makeGraphicInRviz.i
+
+# target to preprocess a source file
+src/makeGraphicInRviz.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/makeGraphicInRviz.dir/build.make my_plagin/CMakeFiles/makeGraphicInRviz.dir/src/makeGraphicInRviz.cpp.i
+.PHONY : src/makeGraphicInRviz.cpp.i
+
+src/makeGraphicInRviz.s: src/makeGraphicInRviz.cpp.s
+
+.PHONY : src/makeGraphicInRviz.s
+
+# target to generate assembly for a file
+src/makeGraphicInRviz.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/makeGraphicInRviz.dir/build.make my_plagin/CMakeFiles/makeGraphicInRviz.dir/src/makeGraphicInRviz.cpp.s
+.PHONY : src/makeGraphicInRviz.cpp.s
+
 src/moveToDestiny.o: src/moveToDestiny.cpp.o
 
 .PHONY : src/moveToDestiny.o
@@ -436,8 +520,10 @@ help:
 	@echo "... install/local"
 	@echo "... list_install_components"
 	@echo "... install/strip"
+	@echo "... genDestinyPointRRT"
 	@echo "... pcl_msgs_generate_messages_lisp"
 	@echo "... pcl_msgs_generate_messages_py"
+	@echo "... makeGraphicInRviz"
 	@echo "... pcl_msgs_generate_messages_eus"
 	@echo "... pcl_msgs_generate_messages_cpp"
 	@echo "... pcl_msgs_generate_messages_nodejs"
@@ -449,12 +535,18 @@ help:
 	@echo "... src/genDestinyPoint.o"
 	@echo "... src/genDestinyPoint.i"
 	@echo "... src/genDestinyPoint.s"
+	@echo "... src/genDestinyPointRRT.o"
+	@echo "... src/genDestinyPointRRT.i"
+	@echo "... src/genDestinyPointRRT.s"
 	@echo "... src/genOctTree.o"
 	@echo "... src/genOctTree.i"
 	@echo "... src/genOctTree.s"
 	@echo "... src/genPointCloud.o"
 	@echo "... src/genPointCloud.i"
 	@echo "... src/genPointCloud.s"
+	@echo "... src/makeGraphicInRviz.o"
+	@echo "... src/makeGraphicInRviz.i"
+	@echo "... src/makeGraphicInRviz.s"
 	@echo "... src/moveToDestiny.o"
 	@echo "... src/moveToDestiny.i"
 	@echo "... src/moveToDestiny.s"

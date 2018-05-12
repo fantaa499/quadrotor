@@ -93,7 +93,9 @@ my_plagin/CMakeFiles/genDestinyPoint.dir/src/genDestinyPoint.cpp.o: /opt/ros/kin
 my_plagin/CMakeFiles/genDestinyPoint.dir/src/genDestinyPoint.cpp.o: /opt/ros/kinetic/include/ros/wall_timer_options.h
 my_plagin/CMakeFiles/genDestinyPoint.dir/src/genDestinyPoint.cpp.o: /opt/ros/kinetic/include/rosconsole/macros_generated.h
 my_plagin/CMakeFiles/genDestinyPoint.dir/src/genDestinyPoint.cpp.o: /opt/ros/kinetic/include/std_msgs/Bool.h
+my_plagin/CMakeFiles/genDestinyPoint.dir/src/genDestinyPoint.cpp.o: /opt/ros/kinetic/include/std_msgs/ColorRGBA.h
 my_plagin/CMakeFiles/genDestinyPoint.dir/src/genDestinyPoint.cpp.o: /opt/ros/kinetic/include/std_msgs/Header.h
+my_plagin/CMakeFiles/genDestinyPoint.dir/src/genDestinyPoint.cpp.o: /opt/ros/kinetic/include/visualization_msgs/Marker.h
 my_plagin/CMakeFiles/genDestinyPoint.dir/src/genDestinyPoint.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
 my_plagin/CMakeFiles/genDestinyPoint.dir/src/genDestinyPoint.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h
 my_plagin/CMakeFiles/genDestinyPoint.dir/src/genDestinyPoint.cpp.o: /usr/include/x86_64-linux-gnu/bits/select.h

@@ -70,6 +70,12 @@ target_link_libraries(moveToDestiny ${catkin_LIBRARIES} ${OCTOMAP_LIBRARIES} ${P
 add_executable(genDestinyPoint src/genDestinyPoint.cpp)
 target_link_libraries(genDestinyPoint ${catkin_LIBRARIES} ${OCTOMAP_LIBRARIES} ${PCL_LIBRARIES})
 
+add_executable(genDestinyPointRRT src/genDestinyPointRRT.cpp)
+target_link_libraries(genDestinyPointRRT ${catkin_LIBRARIES} ${OCTOMAP_LIBRARIES} ${PCL_LIBRARIES})
+
+add_executable(makeGraphicInRviz src/makeGraphicInRviz.cpp)
+target_link_libraries(makeGraphicInRviz ${catkin_LIBRARIES} ${OCTOMAP_LIBRARIES} ${PCL_LIBRARIES})
+
 #add_dependencies(genPointCloud my_plagin_gencpp)
 install(DIRECTORY launch DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 install(DIRECTORY rviz_cfg DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})

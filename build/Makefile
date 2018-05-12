@@ -3247,6 +3247,19 @@ message_to_tf/fast:
 .PHONY : message_to_tf/fast
 
 #=============================================================================
+# Target rules for targets named genDestinyPointRRT
+
+# Build rule for target.
+genDestinyPointRRT: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 genDestinyPointRRT
+.PHONY : genDestinyPointRRT
+
+# fast build rule for target.
+genDestinyPointRRT/fast:
+	$(MAKE) -f my_plagin/CMakeFiles/genDestinyPointRRT.dir/build.make my_plagin/CMakeFiles/genDestinyPointRRT.dir/build
+.PHONY : genDestinyPointRRT/fast
+
+#=============================================================================
 # Target rules for targets named pcl_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -3271,6 +3284,19 @@ pcl_msgs_generate_messages_py: cmake_check_build_system
 pcl_msgs_generate_messages_py/fast:
 	$(MAKE) -f my_plagin/CMakeFiles/pcl_msgs_generate_messages_py.dir/build.make my_plagin/CMakeFiles/pcl_msgs_generate_messages_py.dir/build
 .PHONY : pcl_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named makeGraphicInRviz
+
+# Build rule for target.
+makeGraphicInRviz: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 makeGraphicInRviz
+.PHONY : makeGraphicInRviz
+
+# fast build rule for target.
+makeGraphicInRviz/fast:
+	$(MAKE) -f my_plagin/CMakeFiles/makeGraphicInRviz.dir/build.make my_plagin/CMakeFiles/makeGraphicInRviz.dir/build
+.PHONY : makeGraphicInRviz/fast
 
 #=============================================================================
 # Target rules for targets named pcl_msgs_generate_messages_eus
@@ -4276,8 +4302,10 @@ help:
 	@echo "... topic_tools_generate_messages_py"
 	@echo "... topic_tools_generate_messages_cpp"
 	@echo "... message_to_tf"
+	@echo "... genDestinyPointRRT"
 	@echo "... pcl_msgs_generate_messages_lisp"
 	@echo "... pcl_msgs_generate_messages_py"
+	@echo "... makeGraphicInRviz"
 	@echo "... pcl_msgs_generate_messages_eus"
 	@echo "... pcl_msgs_generate_messages_cpp"
 	@echo "... pcl_msgs_generate_messages_nodejs"
