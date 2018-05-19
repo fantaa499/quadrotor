@@ -53,6 +53,6 @@
   </node>
 
   <!-- Start rviz visualization with preset config -->
-  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find my_plagin)/rviz_cfg/octo_config.rviz"/>
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find my_plagin)/rviz_cfg/marker_config.rviz"/>
 
 </launch>

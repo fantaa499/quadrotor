@@ -248,12 +248,12 @@ gtest/preinstall:
 gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=8 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/CMakeFiles/gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : gtest/CMakeFiles/gtest.dir/rule
@@ -280,7 +280,7 @@ clean: gtest/CMakeFiles/gtest.dir/clean
 gtest/CMakeFiles/gtest_main.dir/all: gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=9 "Built target gtest_main"
 .PHONY : gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -746,7 +746,7 @@ hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_genlisp.dir/all: hec
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_genlisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_genlisp.dir/rule
@@ -818,12 +818,12 @@ hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_li
 hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/all: hector_quadrotor/hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_EnableMotors.dir/all
 	$(MAKE) -f hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/build.make hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/build.make hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=61,62,63,64,65,66,67,68,69,70,71 "Built target hector_uav_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=61,62,63,64,65,66,67,68,69,70 "Built target hector_uav_msgs_generate_messages_lisp"
 .PHONY : hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_lisp.dir/rule
@@ -1548,12 +1548,12 @@ hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_no
 hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/all: hector_quadrotor/hector_uav_msgs/CMakeFiles/_hector_uav_msgs_generate_messages_check_deps_EnableMotors.dir/all
 	$(MAKE) -f hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/build.make hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/build.make hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=72,73,74,75,76,77,78,79,80,81 "Built target hector_uav_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=71,72,73,74,75,76,77,78,79,80,81 "Built target hector_uav_msgs_generate_messages_nodejs"
 .PHONY : hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_generate_messages_nodejs.dir/rule
@@ -2887,7 +2887,7 @@ hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_gennodejs.dir/all: h
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_gennodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_uav_msgs/CMakeFiles/hector_uav_msgs_gennodejs.dir/rule
@@ -4927,7 +4927,7 @@ hector_slam/hector_geotiff/CMakeFiles/geotiff_node.dir/all: hector_slam/hector_g
 hector_slam/hector_geotiff/CMakeFiles/geotiff_node.dir/all: hector_slam/hector_geotiff/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 	$(MAKE) -f hector_slam/hector_geotiff/CMakeFiles/geotiff_node.dir/build.make hector_slam/hector_geotiff/CMakeFiles/geotiff_node.dir/depend
 	$(MAKE) -f hector_slam/hector_geotiff/CMakeFiles/geotiff_node.dir/build.make hector_slam/hector_geotiff/CMakeFiles/geotiff_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target geotiff_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=7 "Built target geotiff_node"
 .PHONY : hector_slam/hector_geotiff/CMakeFiles/geotiff_node.dir/all
 
 # Include target in all.
@@ -4937,7 +4937,7 @@ all: hector_slam/hector_geotiff/CMakeFiles/geotiff_node.dir/all
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_geotiff/CMakeFiles/geotiff_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_geotiff/CMakeFiles/geotiff_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_slam/hector_geotiff/CMakeFiles/geotiff_node.dir/rule
@@ -5000,7 +5000,7 @@ hector_slam/hector_geotiff/CMakeFiles/geotiff_saver.dir/all: hector_slam/hector_
 hector_slam/hector_geotiff/CMakeFiles/geotiff_saver.dir/all: hector_slam/hector_geotiff/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 	$(MAKE) -f hector_slam/hector_geotiff/CMakeFiles/geotiff_saver.dir/build.make hector_slam/hector_geotiff/CMakeFiles/geotiff_saver.dir/depend
 	$(MAKE) -f hector_slam/hector_geotiff/CMakeFiles/geotiff_saver.dir/build.make hector_slam/hector_geotiff/CMakeFiles/geotiff_saver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=7 "Built target geotiff_saver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target geotiff_saver"
 .PHONY : hector_slam/hector_geotiff/CMakeFiles/geotiff_saver.dir/all
 
 # Include target in all.
@@ -5072,7 +5072,7 @@ hector_slam/hector_geotiff/CMakeFiles/geotiff_writer.dir/all: hector_slam/hector
 hector_slam/hector_geotiff/CMakeFiles/geotiff_writer.dir/all: hector_slam/hector_geotiff/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 	$(MAKE) -f hector_slam/hector_geotiff/CMakeFiles/geotiff_writer.dir/build.make hector_slam/hector_geotiff/CMakeFiles/geotiff_writer.dir/depend
 	$(MAKE) -f hector_slam/hector_geotiff/CMakeFiles/geotiff_writer.dir/build.make hector_slam/hector_geotiff/CMakeFiles/geotiff_writer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target geotiff_writer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=8 "Built target geotiff_writer"
 .PHONY : hector_slam/hector_geotiff/CMakeFiles/geotiff_writer.dir/all
 
 # Include target in all.
@@ -5082,7 +5082,7 @@ all: hector_slam/hector_geotiff/CMakeFiles/geotiff_writer.dir/all
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_geotiff/CMakeFiles/geotiff_writer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_geotiff/CMakeFiles/geotiff_writer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_slam/hector_geotiff/CMakeFiles/geotiff_writer.dir/rule
@@ -5483,7 +5483,7 @@ hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/all: he
 hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/all: hector_slam/hector_geotiff/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 	$(MAKE) -f hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/build.make hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/depend
 	$(MAKE) -f hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/build.make hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target hector_geotiff_plugins"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=16 "Built target hector_geotiff_plugins"
 .PHONY : hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/all
 
 # Include target in all.
@@ -5493,7 +5493,7 @@ all: hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/al
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/rule
@@ -5595,7 +5595,7 @@ clean: hector_quadrotor/hector_quadrotor_model/CMakeFiles/hector_quadrotor_propu
 hector_quadrotor/hector_quadrotor_model/CMakeFiles/hector_quadrotor_aerodynamics.dir/all:
 	$(MAKE) -f hector_quadrotor/hector_quadrotor_model/CMakeFiles/hector_quadrotor_aerodynamics.dir/build.make hector_quadrotor/hector_quadrotor_model/CMakeFiles/hector_quadrotor_aerodynamics.dir/depend
 	$(MAKE) -f hector_quadrotor/hector_quadrotor_model/CMakeFiles/hector_quadrotor_aerodynamics.dir/build.make hector_quadrotor/hector_quadrotor_model/CMakeFiles/hector_quadrotor_aerodynamics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target hector_quadrotor_aerodynamics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=34 "Built target hector_quadrotor_aerodynamics"
 .PHONY : hector_quadrotor/hector_quadrotor_model/CMakeFiles/hector_quadrotor_aerodynamics.dir/all
 
 # Include target in all.
@@ -5605,7 +5605,7 @@ all: hector_quadrotor/hector_quadrotor_model/CMakeFiles/hector_quadrotor_aerodyn
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_quadrotor_model/CMakeFiles/hector_quadrotor_aerodynamics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_quadrotor_model/CMakeFiles/hector_quadrotor_aerodynamics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_quadrotor_model/CMakeFiles/hector_quadrotor_aerodynamics.dir/rule
@@ -5927,7 +5927,7 @@ hector_gazebo/hector_gazebo_plugins/preinstall:
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/all: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/all
 	$(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/depend
 	$(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=15 "Built target hector_gazebo_ros_sonar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target hector_gazebo_ros_sonar"
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/all
 
 # Include target in all.
@@ -5937,7 +5937,7 @@ all: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/
 
 # Build rule for subdir invocation for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_sonar.dir/rule
@@ -6076,7 +6076,7 @@ all: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/al
 
 # Build rule for subdir invocation for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_imu.dir/rule
@@ -6915,7 +6915,7 @@ clean: hector_gazebo/hector_gazebo_plugins/CMakeFiles/actionlib_generate_message
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/all:
 	$(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/depend
 	$(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=9 "Built target hector_gazebo_plugins_gencfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target hector_gazebo_plugins_gencfg"
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/all
 
 # Include target in all.
@@ -6925,7 +6925,7 @@ all: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg
 
 # Build rule for subdir invocation for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/rule
@@ -7353,7 +7353,7 @@ clean: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gene
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/all:
 	$(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/depend
 	$(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=1 "Built target gazebo_ros_force_based_move"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target gazebo_ros_force_based_move"
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/all
 
 # Include target in all.
@@ -7363,7 +7363,7 @@ all: hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.
 
 # Build rule for subdir invocation for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/gazebo_ros_force_based_move.dir/rule
@@ -7454,7 +7454,7 @@ clean: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_genn
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/all: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_gencfg.dir/all
 	$(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/depend
 	$(MAKE) -f hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/build.make hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target hector_gazebo_ros_magnetic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=15 "Built target hector_gazebo_ros_magnetic"
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_magnetic.dir/all
 
 # Include target in all.
@@ -7501,7 +7501,7 @@ all: hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/al
 
 # Build rule for subdir invocation for target.
 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_gazebo/hector_gazebo_plugins/CMakeFiles/hector_gazebo_ros_gps.dir/rule
@@ -7546,7 +7546,7 @@ hector_slam/hector_imu_attitude_to_tf/preinstall:
 hector_slam/hector_imu_attitude_to_tf/CMakeFiles/imu_attitude_to_tf_node.dir/all:
 	$(MAKE) -f hector_slam/hector_imu_attitude_to_tf/CMakeFiles/imu_attitude_to_tf_node.dir/build.make hector_slam/hector_imu_attitude_to_tf/CMakeFiles/imu_attitude_to_tf_node.dir/depend
 	$(MAKE) -f hector_slam/hector_imu_attitude_to_tf/CMakeFiles/imu_attitude_to_tf_node.dir/build.make hector_slam/hector_imu_attitude_to_tf/CMakeFiles/imu_attitude_to_tf_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=93 "Built target imu_attitude_to_tf_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target imu_attitude_to_tf_node"
 .PHONY : hector_slam/hector_imu_attitude_to_tf/CMakeFiles/imu_attitude_to_tf_node.dir/all
 
 # Include target in all.
@@ -7556,7 +7556,7 @@ all: hector_slam/hector_imu_attitude_to_tf/CMakeFiles/imu_attitude_to_tf_node.di
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_imu_attitude_to_tf/CMakeFiles/imu_attitude_to_tf_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_imu_attitude_to_tf/CMakeFiles/imu_attitude_to_tf_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_slam/hector_imu_attitude_to_tf/CMakeFiles/imu_attitude_to_tf_node.dir/rule
@@ -7715,7 +7715,7 @@ hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/all: hector_gazeb
 hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/all: hector_gazebo/hector_gazebo_plugins/CMakeFiles/actionlib_generate_messages_lisp.dir/all
 	$(MAKE) -f hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/build.make hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/depend
 	$(MAKE) -f hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/build.make hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=16 "Built target hector_map_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target hector_map_server"
 .PHONY : hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/all
 
 # Include target in all.
@@ -7725,7 +7725,7 @@ all: hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/all
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_slam/hector_map_server/CMakeFiles/hector_map_server.dir/rule
@@ -8170,7 +8170,7 @@ hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimation_nod
 hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimation_nodelet.dir/all: hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimation_node.dir/all
 	$(MAKE) -f hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimation_nodelet.dir/build.make hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimation_nodelet.dir/depend
 	$(MAKE) -f hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimation_nodelet.dir/build.make hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimation_nodelet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=33 "Built target hector_pose_estimation_nodelet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target hector_pose_estimation_nodelet"
 .PHONY : hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimation_nodelet.dir/all
 
 # Include target in all.
@@ -8207,7 +8207,7 @@ clean: hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimat
 hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimation_node.dir/all: hector_localization/hector_pose_estimation_core/CMakeFiles/hector_pose_estimation.dir/all
 	$(MAKE) -f hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimation_node.dir/build.make hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimation_node.dir/depend
 	$(MAKE) -f hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimation_node.dir/build.make hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimation_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target hector_pose_estimation_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=33 "Built target hector_pose_estimation_node"
 .PHONY : hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimation_node.dir/all
 
 # Include target in all.
@@ -8217,7 +8217,7 @@ all: hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimatio
 
 # Build rule for subdir invocation for target.
 hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimation_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimation_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_localization/hector_pose_estimation/CMakeFiles/hector_pose_estimation_node.dir/rule
@@ -8447,7 +8447,7 @@ all: hector_localization/hector_pose_estimation/CMakeFiles/pose_estimation.dir/a
 
 # Build rule for subdir invocation for target.
 hector_localization/hector_pose_estimation/CMakeFiles/pose_estimation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 hector_localization/hector_pose_estimation/CMakeFiles/pose_estimation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_localization/hector_pose_estimation/CMakeFiles/pose_estimation.dir/rule
@@ -8637,7 +8637,7 @@ all: hector_quadrotor/hector_quadrotor_gazebo_plugins/CMakeFiles/hector_gazebo_q
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_quadrotor_gazebo_plugins/CMakeFiles/hector_gazebo_quadrotor_aerodynamics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_quadrotor_gazebo_plugins/CMakeFiles/hector_gazebo_quadrotor_aerodynamics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_quadrotor_gazebo_plugins/CMakeFiles/hector_gazebo_quadrotor_aerodynamics.dir/rule
@@ -8675,7 +8675,7 @@ all: hector_quadrotor/hector_quadrotor_gazebo_plugins/CMakeFiles/hector_gazebo_q
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_quadrotor_gazebo_plugins/CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_quadrotor_gazebo_plugins/CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_quadrotor_gazebo_plugins/CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/rule
@@ -8714,7 +8714,7 @@ all: hector_quadrotor/hector_quadrotor_gazebo_plugins/CMakeFiles/hector_gazebo_q
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_quadrotor_gazebo_plugins/CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_quadrotor_gazebo_plugins/CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_quadrotor_gazebo_plugins/CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/rule
@@ -8753,7 +8753,7 @@ all: hector_quadrotor/hector_quadrotor_gazebo_plugins/CMakeFiles/hector_gazebo_r
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_quadrotor_gazebo_plugins/CMakeFiles/hector_gazebo_ros_baro.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_quadrotor_gazebo_plugins/CMakeFiles/hector_gazebo_ros_baro.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_quadrotor_gazebo_plugins/CMakeFiles/hector_gazebo_ros_baro.dir/rule
@@ -9248,9 +9248,11 @@ clean: hector_localization/message_to_tf/CMakeFiles/message_to_tf.dir/clean
 # Directory level rules for directory my_plagin
 
 # Convenience name for "all" pass in the directory.
+my_plagin/all: my_plagin/CMakeFiles/drawTrajectory.dir/all
 my_plagin/all: my_plagin/CMakeFiles/genDestinyPointRRT.dir/all
 my_plagin/all: my_plagin/CMakeFiles/makeGraphicInRviz.dir/all
 my_plagin/all: my_plagin/CMakeFiles/genPointCloud.dir/all
+my_plagin/all: my_plagin/CMakeFiles/makeRRTmodif.dir/all
 my_plagin/all: my_plagin/CMakeFiles/genOctTree.dir/all
 my_plagin/all: my_plagin/CMakeFiles/moveToDestiny.dir/all
 my_plagin/all: my_plagin/CMakeFiles/genDestinyPoint.dir/all
@@ -9258,6 +9260,7 @@ my_plagin/all: my_plagin/CMakeFiles/genDestinyPoint.dir/all
 .PHONY : my_plagin/all
 
 # Convenience name for "clean" pass in the directory.
+my_plagin/clean: my_plagin/CMakeFiles/drawTrajectory.dir/clean
 my_plagin/clean: my_plagin/CMakeFiles/genDestinyPointRRT.dir/clean
 my_plagin/clean: my_plagin/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/clean
 my_plagin/clean: my_plagin/CMakeFiles/pcl_msgs_generate_messages_py.dir/clean
@@ -9266,6 +9269,7 @@ my_plagin/clean: my_plagin/CMakeFiles/pcl_msgs_generate_messages_eus.dir/clean
 my_plagin/clean: my_plagin/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/clean
 my_plagin/clean: my_plagin/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/clean
 my_plagin/clean: my_plagin/CMakeFiles/genPointCloud.dir/clean
+my_plagin/clean: my_plagin/CMakeFiles/makeRRTmodif.dir/clean
 my_plagin/clean: my_plagin/CMakeFiles/pcl_ros_gencfg.dir/clean
 my_plagin/clean: my_plagin/CMakeFiles/genOctTree.dir/clean
 my_plagin/clean: my_plagin/CMakeFiles/moveToDestiny.dir/clean
@@ -9279,13 +9283,50 @@ my_plagin/preinstall:
 .PHONY : my_plagin/preinstall
 
 #=============================================================================
+# Target rules for target my_plagin/CMakeFiles/drawTrajectory.dir
+
+# All Build rule for target.
+my_plagin/CMakeFiles/drawTrajectory.dir/all:
+	$(MAKE) -f my_plagin/CMakeFiles/drawTrajectory.dir/build.make my_plagin/CMakeFiles/drawTrajectory.dir/depend
+	$(MAKE) -f my_plagin/CMakeFiles/drawTrajectory.dir/build.make my_plagin/CMakeFiles/drawTrajectory.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=1 "Built target drawTrajectory"
+.PHONY : my_plagin/CMakeFiles/drawTrajectory.dir/all
+
+# Include target in all.
+all: my_plagin/CMakeFiles/drawTrajectory.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+my_plagin/CMakeFiles/drawTrajectory.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/drawTrajectory.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
+.PHONY : my_plagin/CMakeFiles/drawTrajectory.dir/rule
+
+# Convenience name for target.
+drawTrajectory: my_plagin/CMakeFiles/drawTrajectory.dir/rule
+
+.PHONY : drawTrajectory
+
+# clean rule for target.
+my_plagin/CMakeFiles/drawTrajectory.dir/clean:
+	$(MAKE) -f my_plagin/CMakeFiles/drawTrajectory.dir/build.make my_plagin/CMakeFiles/drawTrajectory.dir/clean
+.PHONY : my_plagin/CMakeFiles/drawTrajectory.dir/clean
+
+# clean rule for target.
+clean: my_plagin/CMakeFiles/drawTrajectory.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target my_plagin/CMakeFiles/genDestinyPointRRT.dir
 
 # All Build rule for target.
 my_plagin/CMakeFiles/genDestinyPointRRT.dir/all:
 	$(MAKE) -f my_plagin/CMakeFiles/genDestinyPointRRT.dir/build.make my_plagin/CMakeFiles/genDestinyPointRRT.dir/depend
 	$(MAKE) -f my_plagin/CMakeFiles/genDestinyPointRRT.dir/build.make my_plagin/CMakeFiles/genDestinyPointRRT.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=3 "Built target genDestinyPointRRT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target genDestinyPointRRT"
 .PHONY : my_plagin/CMakeFiles/genDestinyPointRRT.dir/all
 
 # Include target in all.
@@ -9295,7 +9336,7 @@ all: my_plagin/CMakeFiles/genDestinyPointRRT.dir/all
 
 # Build rule for subdir invocation for target.
 my_plagin/CMakeFiles/genDestinyPointRRT.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/genDestinyPointRRT.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : my_plagin/CMakeFiles/genDestinyPointRRT.dir/rule
@@ -9386,7 +9427,7 @@ clean: my_plagin/CMakeFiles/pcl_msgs_generate_messages_py.dir/clean
 my_plagin/CMakeFiles/makeGraphicInRviz.dir/all:
 	$(MAKE) -f my_plagin/CMakeFiles/makeGraphicInRviz.dir/build.make my_plagin/CMakeFiles/makeGraphicInRviz.dir/depend
 	$(MAKE) -f my_plagin/CMakeFiles/makeGraphicInRviz.dir/build.make my_plagin/CMakeFiles/makeGraphicInRviz.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=94 "Built target makeGraphicInRviz"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target makeGraphicInRviz"
 .PHONY : my_plagin/CMakeFiles/makeGraphicInRviz.dir/all
 
 # Include target in all.
@@ -9396,7 +9437,7 @@ all: my_plagin/CMakeFiles/makeGraphicInRviz.dir/all
 
 # Build rule for subdir invocation for target.
 my_plagin/CMakeFiles/makeGraphicInRviz.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/makeGraphicInRviz.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : my_plagin/CMakeFiles/makeGraphicInRviz.dir/rule
@@ -9519,7 +9560,7 @@ clean: my_plagin/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/clean
 my_plagin/CMakeFiles/genPointCloud.dir/all:
 	$(MAKE) -f my_plagin/CMakeFiles/genPointCloud.dir/build.make my_plagin/CMakeFiles/genPointCloud.dir/depend
 	$(MAKE) -f my_plagin/CMakeFiles/genPointCloud.dir/build.make my_plagin/CMakeFiles/genPointCloud.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=4 "Built target genPointCloud"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target genPointCloud"
 .PHONY : my_plagin/CMakeFiles/genPointCloud.dir/all
 
 # Include target in all.
@@ -9529,7 +9570,7 @@ all: my_plagin/CMakeFiles/genPointCloud.dir/all
 
 # Build rule for subdir invocation for target.
 my_plagin/CMakeFiles/genPointCloud.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/genPointCloud.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : my_plagin/CMakeFiles/genPointCloud.dir/rule
@@ -9546,6 +9587,43 @@ my_plagin/CMakeFiles/genPointCloud.dir/clean:
 
 # clean rule for target.
 clean: my_plagin/CMakeFiles/genPointCloud.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target my_plagin/CMakeFiles/makeRRTmodif.dir
+
+# All Build rule for target.
+my_plagin/CMakeFiles/makeRRTmodif.dir/all:
+	$(MAKE) -f my_plagin/CMakeFiles/makeRRTmodif.dir/build.make my_plagin/CMakeFiles/makeRRTmodif.dir/depend
+	$(MAKE) -f my_plagin/CMakeFiles/makeRRTmodif.dir/build.make my_plagin/CMakeFiles/makeRRTmodif.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=94 "Built target makeRRTmodif"
+.PHONY : my_plagin/CMakeFiles/makeRRTmodif.dir/all
+
+# Include target in all.
+all: my_plagin/CMakeFiles/makeRRTmodif.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+my_plagin/CMakeFiles/makeRRTmodif.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/makeRRTmodif.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
+.PHONY : my_plagin/CMakeFiles/makeRRTmodif.dir/rule
+
+# Convenience name for target.
+makeRRTmodif: my_plagin/CMakeFiles/makeRRTmodif.dir/rule
+
+.PHONY : makeRRTmodif
+
+# clean rule for target.
+my_plagin/CMakeFiles/makeRRTmodif.dir/clean:
+	$(MAKE) -f my_plagin/CMakeFiles/makeRRTmodif.dir/build.make my_plagin/CMakeFiles/makeRRTmodif.dir/clean
+.PHONY : my_plagin/CMakeFiles/makeRRTmodif.dir/clean
+
+# clean rule for target.
+clean: my_plagin/CMakeFiles/makeRRTmodif.dir/clean
 
 .PHONY : clean
 
@@ -9588,7 +9666,7 @@ clean: my_plagin/CMakeFiles/pcl_ros_gencfg.dir/clean
 my_plagin/CMakeFiles/genOctTree.dir/all:
 	$(MAKE) -f my_plagin/CMakeFiles/genOctTree.dir/build.make my_plagin/CMakeFiles/genOctTree.dir/depend
 	$(MAKE) -f my_plagin/CMakeFiles/genOctTree.dir/build.make my_plagin/CMakeFiles/genOctTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target genOctTree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=4 "Built target genOctTree"
 .PHONY : my_plagin/CMakeFiles/genOctTree.dir/all
 
 # Include target in all.
@@ -9598,7 +9676,7 @@ all: my_plagin/CMakeFiles/genOctTree.dir/all
 
 # Build rule for subdir invocation for target.
 my_plagin/CMakeFiles/genOctTree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/genOctTree.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : my_plagin/CMakeFiles/genOctTree.dir/rule
@@ -9662,7 +9740,7 @@ clean: my_plagin/CMakeFiles/moveToDestiny.dir/clean
 my_plagin/CMakeFiles/genDestinyPoint.dir/all:
 	$(MAKE) -f my_plagin/CMakeFiles/genDestinyPoint.dir/build.make my_plagin/CMakeFiles/genDestinyPoint.dir/depend
 	$(MAKE) -f my_plagin/CMakeFiles/genDestinyPoint.dir/build.make my_plagin/CMakeFiles/genDestinyPoint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target genDestinyPoint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=3 "Built target genDestinyPoint"
 .PHONY : my_plagin/CMakeFiles/genDestinyPoint.dir/all
 
 # Include target in all.
@@ -9672,7 +9750,7 @@ all: my_plagin/CMakeFiles/genDestinyPoint.dir/all
 
 # Build rule for subdir invocation for target.
 my_plagin/CMakeFiles/genDestinyPoint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/genDestinyPoint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : my_plagin/CMakeFiles/genDestinyPoint.dir/rule
@@ -9774,7 +9852,7 @@ all: hector_slam/hector_mapping/CMakeFiles/hector_mapping.dir/all
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_mapping/CMakeFiles/hector_mapping.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_mapping/CMakeFiles/hector_mapping.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_slam/hector_mapping/CMakeFiles/hector_mapping.dir/rule
@@ -9931,12 +10009,12 @@ hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/a
 hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/all: hector_slam/hector_mapping/CMakeFiles/_hector_mapping_generate_messages_check_deps_HectorDebugInfo.dir/all
 	$(MAKE) -f hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/build.make hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/depend
 	$(MAKE) -f hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/build.make hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target hector_mapping_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=18 "Built target hector_mapping_generate_messages_cpp"
 .PHONY : hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_cpp.dir/rule
@@ -10009,7 +10087,7 @@ hector_slam/hector_mapping/CMakeFiles/hector_mapping_gencpp.dir/all: hector_slam
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_mapping/CMakeFiles/hector_mapping_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_mapping/CMakeFiles/hector_mapping_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_slam/hector_mapping/CMakeFiles/hector_mapping_gencpp.dir/rule
@@ -10037,12 +10115,12 @@ hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_eus.dir/a
 hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_eus.dir/all: hector_slam/hector_mapping/CMakeFiles/_hector_mapping_generate_messages_check_deps_HectorDebugInfo.dir/all
 	$(MAKE) -f hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_eus.dir/build.make hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_eus.dir/depend
 	$(MAKE) -f hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_eus.dir/build.make hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=18 "Built target hector_mapping_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target hector_mapping_generate_messages_eus"
 .PHONY : hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_slam/hector_mapping/CMakeFiles/hector_mapping_generate_messages_eus.dir/rule
@@ -10074,7 +10152,7 @@ hector_slam/hector_mapping/CMakeFiles/hector_mapping_geneus.dir/all: hector_slam
 
 # Build rule for subdir invocation for target.
 hector_slam/hector_mapping/CMakeFiles/hector_mapping_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 hector_slam/hector_mapping/CMakeFiles/hector_mapping_geneus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_slam/hector_mapping/CMakeFiles/hector_mapping_geneus.dir/rule
@@ -10229,7 +10307,7 @@ hector_gazebo/hector_gazebo_thermal_camera/preinstall:
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/all:
 	$(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/depend
 	$(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=2 "Built target gazebo_ros_thermal_depth_camera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target gazebo_ros_thermal_depth_camera"
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/all
 
 # Include target in all.
@@ -10239,7 +10317,7 @@ all: hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_de
 
 # Build rule for subdir invocation for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_depth_camera.dir/rule
@@ -10266,7 +10344,7 @@ clean: hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/all:
 	$(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/depend
 	$(MAKE) -f hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/build.make hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target gazebo_ros_thermal_camera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=2 "Built target gazebo_ros_thermal_camera"
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/all
 
 # Include target in all.
@@ -10276,7 +10354,7 @@ all: hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_ca
 
 # Build rule for subdir invocation for target.
 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_gazebo/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/rule
@@ -10788,7 +10866,7 @@ hector_quadrotor/hector_quadrotor_actions/CMakeFiles/landing_action.dir/all: hec
 hector_quadrotor/hector_quadrotor_actions/CMakeFiles/landing_action.dir/all: hector_quadrotor/hector_quadrotor_interface/CMakeFiles/hector_quadrotor_interface.dir/all
 	$(MAKE) -f hector_quadrotor/hector_quadrotor_actions/CMakeFiles/landing_action.dir/build.make hector_quadrotor/hector_quadrotor_actions/CMakeFiles/landing_action.dir/depend
 	$(MAKE) -f hector_quadrotor/hector_quadrotor_actions/CMakeFiles/landing_action.dir/build.make hector_quadrotor/hector_quadrotor_actions/CMakeFiles/landing_action.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target landing_action"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=93 "Built target landing_action"
 .PHONY : hector_quadrotor/hector_quadrotor_actions/CMakeFiles/landing_action.dir/all
 
 # Include target in all.
@@ -10798,7 +10876,7 @@ all: hector_quadrotor/hector_quadrotor_actions/CMakeFiles/landing_action.dir/all
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_quadrotor_actions/CMakeFiles/landing_action.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 55
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_quadrotor_actions/CMakeFiles/landing_action.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_quadrotor_actions/CMakeFiles/landing_action.dir/rule
@@ -11720,7 +11798,7 @@ clean: hector_quadrotor/hector_quadrotor_controller_gazebo/CMakeFiles/controller
 hector_quadrotor/hector_quadrotor_controller_gazebo/CMakeFiles/hector_quadrotor_controller_gazebo.dir/all: hector_quadrotor/hector_quadrotor_interface/CMakeFiles/hector_quadrotor_interface.dir/all
 	$(MAKE) -f hector_quadrotor/hector_quadrotor_controller_gazebo/CMakeFiles/hector_quadrotor_controller_gazebo.dir/build.make hector_quadrotor/hector_quadrotor_controller_gazebo/CMakeFiles/hector_quadrotor_controller_gazebo.dir/depend
 	$(MAKE) -f hector_quadrotor/hector_quadrotor_controller_gazebo/CMakeFiles/hector_quadrotor_controller_gazebo.dir/build.make hector_quadrotor/hector_quadrotor_controller_gazebo/CMakeFiles/hector_quadrotor_controller_gazebo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num=34 "Built target hector_quadrotor_controller_gazebo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton/Documents/catkin_ws/build/CMakeFiles --progress-num= "Built target hector_quadrotor_controller_gazebo"
 .PHONY : hector_quadrotor/hector_quadrotor_controller_gazebo/CMakeFiles/hector_quadrotor_controller_gazebo.dir/all
 
 # Include target in all.
@@ -11730,7 +11808,7 @@ all: hector_quadrotor/hector_quadrotor_controller_gazebo/CMakeFiles/hector_quadr
 
 # Build rule for subdir invocation for target.
 hector_quadrotor/hector_quadrotor_controller_gazebo/CMakeFiles/hector_quadrotor_controller_gazebo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 hector_quadrotor/hector_quadrotor_controller_gazebo/CMakeFiles/hector_quadrotor_controller_gazebo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles 0
 .PHONY : hector_quadrotor/hector_quadrotor_controller_gazebo/CMakeFiles/hector_quadrotor_controller_gazebo.dir/rule

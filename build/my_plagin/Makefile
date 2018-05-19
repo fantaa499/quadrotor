@@ -90,17 +90,6 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -133,6 +122,17 @@ install/strip/fast: install/strip
 
 .PHONY : install/strip/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # The main all target
 all: cmake_check_build_system
 	cd /home/anton/Documents/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/anton/Documents/catkin_ws/build/CMakeFiles /home/anton/Documents/catkin_ws/build/my_plagin/CMakeFiles/progress.marks
@@ -164,6 +164,21 @@ preinstall/fast:
 depend:
 	cd /home/anton/Documents/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+my_plagin/CMakeFiles/drawTrajectory.dir/rule:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/drawTrajectory.dir/rule
+.PHONY : my_plagin/CMakeFiles/drawTrajectory.dir/rule
+
+# Convenience name for target.
+drawTrajectory: my_plagin/CMakeFiles/drawTrajectory.dir/rule
+
+.PHONY : drawTrajectory
+
+# fast build rule for target.
+drawTrajectory/fast:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/drawTrajectory.dir/build.make my_plagin/CMakeFiles/drawTrajectory.dir/build
+.PHONY : drawTrajectory/fast
 
 # Convenience name for target.
 my_plagin/CMakeFiles/genDestinyPointRRT.dir/rule:
@@ -286,6 +301,21 @@ genPointCloud/fast:
 .PHONY : genPointCloud/fast
 
 # Convenience name for target.
+my_plagin/CMakeFiles/makeRRTmodif.dir/rule:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/makeRRTmodif.dir/rule
+.PHONY : my_plagin/CMakeFiles/makeRRTmodif.dir/rule
+
+# Convenience name for target.
+makeRRTmodif: my_plagin/CMakeFiles/makeRRTmodif.dir/rule
+
+.PHONY : makeRRTmodif
+
+# fast build rule for target.
+makeRRTmodif/fast:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/makeRRTmodif.dir/build.make my_plagin/CMakeFiles/makeRRTmodif.dir/build
+.PHONY : makeRRTmodif/fast
+
+# Convenience name for target.
 my_plagin/CMakeFiles/pcl_ros_gencfg.dir/rule:
 	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 my_plagin/CMakeFiles/pcl_ros_gencfg.dir/rule
 .PHONY : my_plagin/CMakeFiles/pcl_ros_gencfg.dir/rule
@@ -344,6 +374,33 @@ genDestinyPoint: my_plagin/CMakeFiles/genDestinyPoint.dir/rule
 genDestinyPoint/fast:
 	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/genDestinyPoint.dir/build.make my_plagin/CMakeFiles/genDestinyPoint.dir/build
 .PHONY : genDestinyPoint/fast
+
+src/drawTrajectory.o: src/drawTrajectory.cpp.o
+
+.PHONY : src/drawTrajectory.o
+
+# target to build an object file
+src/drawTrajectory.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/drawTrajectory.dir/build.make my_plagin/CMakeFiles/drawTrajectory.dir/src/drawTrajectory.cpp.o
+.PHONY : src/drawTrajectory.cpp.o
+
+src/drawTrajectory.i: src/drawTrajectory.cpp.i
+
+.PHONY : src/drawTrajectory.i
+
+# target to preprocess a source file
+src/drawTrajectory.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/drawTrajectory.dir/build.make my_plagin/CMakeFiles/drawTrajectory.dir/src/drawTrajectory.cpp.i
+.PHONY : src/drawTrajectory.cpp.i
+
+src/drawTrajectory.s: src/drawTrajectory.cpp.s
+
+.PHONY : src/drawTrajectory.s
+
+# target to generate assembly for a file
+src/drawTrajectory.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/drawTrajectory.dir/build.make my_plagin/CMakeFiles/drawTrajectory.dir/src/drawTrajectory.cpp.s
+.PHONY : src/drawTrajectory.cpp.s
 
 src/genDestinyPoint.o: src/genDestinyPoint.cpp.o
 
@@ -480,6 +537,33 @@ src/makeGraphicInRviz.cpp.s:
 	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/makeGraphicInRviz.dir/build.make my_plagin/CMakeFiles/makeGraphicInRviz.dir/src/makeGraphicInRviz.cpp.s
 .PHONY : src/makeGraphicInRviz.cpp.s
 
+src/makeRRTmodif.o: src/makeRRTmodif.cpp.o
+
+.PHONY : src/makeRRTmodif.o
+
+# target to build an object file
+src/makeRRTmodif.cpp.o:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/makeRRTmodif.dir/build.make my_plagin/CMakeFiles/makeRRTmodif.dir/src/makeRRTmodif.cpp.o
+.PHONY : src/makeRRTmodif.cpp.o
+
+src/makeRRTmodif.i: src/makeRRTmodif.cpp.i
+
+.PHONY : src/makeRRTmodif.i
+
+# target to preprocess a source file
+src/makeRRTmodif.cpp.i:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/makeRRTmodif.dir/build.make my_plagin/CMakeFiles/makeRRTmodif.dir/src/makeRRTmodif.cpp.i
+.PHONY : src/makeRRTmodif.cpp.i
+
+src/makeRRTmodif.s: src/makeRRTmodif.cpp.s
+
+.PHONY : src/makeRRTmodif.s
+
+# target to generate assembly for a file
+src/makeRRTmodif.cpp.s:
+	cd /home/anton/Documents/catkin_ws/build && $(MAKE) -f my_plagin/CMakeFiles/makeRRTmodif.dir/build.make my_plagin/CMakeFiles/makeRRTmodif.dir/src/makeRRTmodif.cpp.s
+.PHONY : src/makeRRTmodif.cpp.s
+
 src/moveToDestiny.o: src/moveToDestiny.cpp.o
 
 .PHONY : src/moveToDestiny.o
@@ -516,10 +600,11 @@ help:
 	@echo "... install"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... test"
 	@echo "... install/local"
 	@echo "... list_install_components"
 	@echo "... install/strip"
+	@echo "... test"
+	@echo "... drawTrajectory"
 	@echo "... genDestinyPointRRT"
 	@echo "... pcl_msgs_generate_messages_lisp"
 	@echo "... pcl_msgs_generate_messages_py"
@@ -528,10 +613,14 @@ help:
 	@echo "... pcl_msgs_generate_messages_cpp"
 	@echo "... pcl_msgs_generate_messages_nodejs"
 	@echo "... genPointCloud"
+	@echo "... makeRRTmodif"
 	@echo "... pcl_ros_gencfg"
 	@echo "... genOctTree"
 	@echo "... moveToDestiny"
 	@echo "... genDestinyPoint"
+	@echo "... src/drawTrajectory.o"
+	@echo "... src/drawTrajectory.i"
+	@echo "... src/drawTrajectory.s"
 	@echo "... src/genDestinyPoint.o"
 	@echo "... src/genDestinyPoint.i"
 	@echo "... src/genDestinyPoint.s"
@@ -547,6 +636,9 @@ help:
 	@echo "... src/makeGraphicInRviz.o"
 	@echo "... src/makeGraphicInRviz.i"
 	@echo "... src/makeGraphicInRviz.s"
+	@echo "... src/makeRRTmodif.o"
+	@echo "... src/makeRRTmodif.i"
+	@echo "... src/makeRRTmodif.s"
 	@echo "... src/moveToDestiny.o"
 	@echo "... src/moveToDestiny.i"
 	@echo "... src/moveToDestiny.s"

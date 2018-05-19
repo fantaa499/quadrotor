@@ -15,6 +15,7 @@ def cmd_command():
 def open_loop():
     rospy.init_node("genGoalState", anonymous=True)
     quad_vel = rospy.Publisher("/goal_state", Vector3, queue_size=1)
+    # quad_vel = rospy.Publisher("/intermediate_state", Vector3, queue_size=1)
     rate = rospy.Rate(10)
     while not rospy.is_shutdown():
         quad_vel.publish(cmd_command())

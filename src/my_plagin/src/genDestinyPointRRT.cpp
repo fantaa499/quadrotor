@@ -23,9 +23,9 @@
 #define N_OF_SECTION_ELL 36
 #define EXTRA_RANGE 1
 #define DEVIATE 0.5
-#define X_MAX 60
-#define Y_MAX 60
-#define Z_MAX 60
+#define X_MAX 20
+#define Y_MAX 20
+#define Z_MAX 20
 #define MAX_NUM_NODES 2500
 #define BIG_VALUE 9999
 #define EPS 2
@@ -124,9 +124,23 @@ public:
 
         currentPath_.clear();
 
+        octomap::point3d* rayEnd;
         Qnode q_start = Qnode(octomap::point3d(curPos_.x, curPos_.y, curPos_.z), 0, -1);
 
-        Qnode q_goal = Qnode(octomap::point3d(nextPosition_.x, nextPosition_.y, nextPosition_.z)); // fix goal
+//        Qnode q_goal = Qnode(octomap::point3d(nextPosition_.x, nextPosition_.y, nextPosition_.z)); // fix goal
+        Qnode q_goal_temple = Qnode(octomap::point3d(goal_.x, goal_.y, goal_.z));
+        Qnode q_goal = calculateNewCoord(q_goal_temple,
+                                         q_start,
+                                         q_goal_temple.distanceTo(q_start),
+                                         X_MAX/2);                           //no matter which side to choose
+        // if goal point in obstacles stay and wait operator
+        OcTreeNode* result = octree_->search(goal_.x, goal_.y, goal_.z);
+        if (result != NULL)
+        {
+            currentPath_.push_back(octomap::point3d(curPos_.x, curPos_.y, curPos_.z));
+            ROS_INFO_STREAM("Goal point" << curPos_ << " in obstacles, enter new goal point." << std::endl);
+            return;
+        }
 
         std::vector<Qnode> nodes;
         nodes.push_back(q_start);
@@ -147,22 +161,29 @@ public:
             //create random node
             std::srand(i*unsigned(std::time(0)));
             // gen new node in box over MAV
+            // for z make special range
+            double z_range = 0;
+            if (double(Z_MAX/2) < curPos_.z)
+            {
+                z_range =  -curPos_.z - double(Z_MAX/2);
+            }
             octomap::point3d randomVarible (-double(X_MAX/2) + double (std::rand())/RAND_MAX*X_MAX + curPos_.x,
                                             -double(Y_MAX/2) + double (std::rand())/RAND_MAX*Y_MAX + curPos_.y,
-                                            -double(Z_MAX/2) + double (std::rand())/RAND_MAX*Z_MAX + curPos_.z);
+                                            double (std::rand())/RAND_MAX*(double(Z_MAX/2)+curPos_.z) + z_range);
+            //TODO: on height > Z_MAX/2 square search zone transform on rectangle
             Qnode q_rand = Qnode(randomVarible);
 
             // pick the closest node from existing list to branch out form
             int minIndex = BIG_VALUE;
             double minDist = BIG_VALUE;
+
             for (int j = 0; j < nodes.size(); j++)
             {
                 double tempDist = nodes[j].distanceTo(q_rand);
-                octomap::point3d* rayEnd;
-//                if (tempDist < minDist && !checkColision(nodes[j].getCoordVec3(), q_rand.getCoordVec3(), rayEnd))
-                //TODO
-                // add detecting obstacles
-                if (tempDist < minDist)
+                if (tempDist < minDist && !checkColision(nodes[j].getCoordVec3(), q_rand.getCoordVec3(), rayEnd))
+                //TODO add detecting obstacles
+                //
+//                if (tempDist < minDist)
                 {
                     minDist = tempDist;
                     minIndex = j;
@@ -176,6 +197,11 @@ public:
             Qnode q_near = nodes[minIndex];
             // set new coordinate, dist between 2 node should be < EPS
             Qnode q_new = calculateNewCoord(q_rand, q_near, minDist, EPS);
+            // for new coordinate q_new
+            if (checkColision(q_near.getCoordVec3(), q_new.getCoordVec3(), rayEnd))
+            {
+                continue;
+            }
             q_new.setCost(q_new.distanceTo(q_near) + q_near.getCost());
             q_new.setParent(minIndex);
             //insert new node to all nodes
@@ -213,7 +239,7 @@ public:
 
         }
         line_final_.points.push_back(nodes[0].intoPoint3());
-        currentPath_.push_back(nodes[0].getCoord());
+        // dont add root into path, that is current position MAV
 
 //        pub_.publish(output);
 
@@ -272,8 +298,8 @@ public:
         octomap::point3d rayEndTemple;
         for (int i = 0; i < size; i++)
         {
-//            bool isIntersect = octree_->castRay(boundaryAr.at(i), direction, *rayEnd, false, maxRange);
-            bool isIntersect = octree_->castRay(boundaryAr.at(i), direction, rayEndTemple);
+            bool isIntersect = octree_->castRay(boundaryAr.at(i), direction, rayEndTemple, false, maxRange);
+//            bool isIntersect = octree_->castRay(boundaryAr.at(i), direction, rayEndTemple);
             if (isIntersect)
             {
                 point3d intersection;
@@ -284,13 +310,6 @@ public:
 //TODO return rayEnd
                 if (isIntersect)
                 {
-                    // if bottom boundary intersect with obstackles near MAV
-//                        if (i == 4 && abs(curPos_.x - intersection.x()) < DEVIATE
-//                                   && abs(curPos_.y - intersection.y()) < DEVIATE
-//                                   && abs(curPos_.z - intersection.z()) < DEVIATE)
-//                        {
-//                            return false;
-//                        }
                     return true;
                 }
             }
@@ -347,7 +366,7 @@ public:
         line_list_.color.a = 1.0;
 
         // Line final is red
-        line_final_.color.r = 1.0;
+        line_final_.color.b = 1.0;
         line_final_.color.a = 1.0;
     }
 
@@ -375,6 +394,7 @@ public:
 
 private:
     bool isTakeoff_ = false;
+
     ros::NodeHandle n_;
     ros::Publisher pub_;
     ros::Publisher marker_pub_;

@@ -37,10 +37,12 @@ float fastDistance2d( float dx, float dy )
 		return 0.961f*dx+0.398f*dy;
 }
 
-float distance3d(int dx, int dy, int dz)
+template  <typename  T>
+T distance3d(T dx, T dy, T dz)
 {
 	return pow(pow(dx,2) + pow(dy,2) + pow(dz,2),0.5);
 }
+
 
 float findAngle2d(float dx, float dy)
 {

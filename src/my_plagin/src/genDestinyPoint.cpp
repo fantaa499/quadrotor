@@ -38,6 +38,8 @@ public:
         //Topic you want to publish
         pub_ = n_.advertise<geometry_msgs::Vector3>("/intermediate_state", 1);
 
+        marker_pub_ = n_.advertise<visualization_msgs::Marker>("visualization_marker", 10);
+
         tracePub_ = n_.advertise<visualization_msgs::Marker>("/trace_line", 10);
 
         subDestiny_ = n_.subscribe("/goal_state", 1, &SubscribeAndPublish::callbackDestiny, this);
@@ -151,11 +153,15 @@ public:
                 semiGoal_.z = extraPoint->z();
                 writeInVec3(output, semiGoal_);
             }
+            publishMarker();
+            clearMarker();
         }
         delete intersection;
         delete extraPoint;
         pub_.publish(output);
     }
+
+
 
     bool findExtraPoint (point3d center, octomap::point3d* extraPoint)
     {
@@ -164,6 +170,13 @@ public:
         double dy = semiGoal_.y - curPos_.y;
         double dz = semiGoal_.z - curPos_.z;
         octomap::point3d direction(dx, dy, dz);
+
+//        double dx = center.x() - curPos_.x;
+//        double dy = center.y() - curPos_.y;
+//        double dz = center.z() - curPos_.z;
+//        octomap::point3d direction(dx, dy, dz);
+
+        initMarker();
 
         double x, y, z, range, angle;
         point3d ray, rayEnd;
@@ -192,12 +205,17 @@ public:
                 semiGoal.y = y;
                 semiGoal.z = z;
                 octomap::point3d  semiGoalExtra = octomap::point3d(x, y, z);
+                // add visualization
+                line_strip_.points.push_back(intoPoint(semiGoalExtra));
+                points_.points.push_back(intoPoint(semiGoalExtra));
+
                 bool isIntersect = checkColision(semiGoal, intersection);
                 if (result == NULL && isIntersect == false)
                 {
                     *extraPoint = semiGoalExtra;
                     ROS_INFO_STREAM("Extra point on" << *extraPoint);
                     delete intersection;
+                    points1_.points.push_back(intoPoint(semiGoalExtra));
                     return (true);
                 }
                 t += (2*PI/N_OF_SECTION_ELL);
@@ -259,11 +277,89 @@ public:
         return false;
     }
 
+    void publishMarker()
+    {
+        marker_pub_.publish(line_final_);
+        marker_pub_.publish(line_list_);
+        marker_pub_.publish(points_);
+        marker_pub_.publish(points1_);
+    }
+
+    void clearMarker()
+    {
+        points_.points.clear();
+        line_final_.points.clear();
+        line_list_.points.clear();
+        points1_.points.clear();
+    }
+
+    void initMarker()
+    {
+
+        points1_.header.frame_id = points_.header.frame_id = line_strip_.header.frame_id = line_list_.header.frame_id  = line_final_.header.frame_id = "world";
+        points1_.header.stamp = points_.header.stamp = line_strip_.header.stamp = line_list_.header.stamp = line_final_.header.stamp = ros::Time::now();
+        points1_.ns = points_.ns = line_strip_.ns = line_list_.ns = line_final_.ns = "points_and_lines";
+        points1_.action = points_.action = line_strip_.action = line_list_.action = line_final_.action = visualization_msgs::Marker::ADD;
+//        points_.pose.orientation.w = line_strip_.pose.orientation.w = line_final_.pose.orientation.w = line_list_.pose.orientation.w = 1.0;
+
+        points_.id = 0;
+        line_strip_.id = 1;
+        line_list_.id = 2;
+        line_final_.id = 3;
+        points1_.id = 4;
+
+        points_.type = visualization_msgs::Marker::POINTS;
+        points1_.type = visualization_msgs::Marker::POINTS;
+        line_strip_.type = visualization_msgs::Marker::LINE_STRIP;
+        line_list_.type = visualization_msgs::Marker::LINE_LIST;
+        line_final_.type = visualization_msgs::Marker::LINE_STRIP;
+
+        // points_ markers use x and y scale for width/height respectively
+        points_.scale.x = 0.2;
+        points_.scale.y = 0.2;
+        points1_.scale.x = 0.2;
+        points1_.scale.y = 0.2;
+
+        // line_strip_/line_list_ markers use only the x component of scale, for the line width
+        line_strip_.scale.x = 0.1;
+        line_list_.scale.x = 0.1;
+        line_final_.scale.x = 0.2;
+
+        // points_ are green
+        points_.color.g = 1.0f;
+        points_.color.a = 1.0;
+
+        // Line strip is blue
+        line_strip_.color.b = 1.0;
+        line_strip_.color.a = 1.0;
+
+        points1_.color.r = 1.0;
+        points1_.color.b = 1.0;
+        points1_.color.a = 1.0;
+
+        // Line list is red
+        line_list_.color.r = 1.0;
+        line_list_.color.a = 1.0;
+
+        // Line final is red
+        line_final_.color.b = 1.0;
+        line_final_.color.a = 1.0;
+    }
+
     void writeInVec3(geometry_msgs::Vector3& a, geometry_msgs::Vector3 b)
     {
         a.x = b.x;
         a.y = b.y;
         a.z = b.z;
+    }
+
+    geometry_msgs::Point intoPoint(octomap::point3d p)
+    {
+        geometry_msgs::Point point;
+        point.x = p.x();
+        point.y = p.y();
+        point.z = p.z();
+        return (point);
     }
 
 
@@ -272,6 +368,7 @@ private:
     bool isTakeoff_ = false;
     ros::NodeHandle n_;
     ros::Publisher pub_;
+    ros::Publisher marker_pub_;
     ros::Subscriber sub_;
     ros::Subscriber subDestiny_;
     ros::Subscriber subOctomap_;
@@ -282,6 +379,12 @@ private:
     geometry_msgs::Vector3 orient_;
     geometry_msgs::Vector3 goal_;
     geometry_msgs::Vector3 semiGoal_;
+
+    visualization_msgs::Marker points_;
+    visualization_msgs::Marker points1_;
+    visualization_msgs::Marker line_strip_;
+    visualization_msgs::Marker line_final_;
+    visualization_msgs::Marker line_list_;
 
     octomap::OcTree* octree_;
 

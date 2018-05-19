@@ -2,7 +2,7 @@
 
 <launch>
   <include file="$(find hector_gazebo_worlds)/launch/start.launch">
-   <arg name="world" value="$(find my_plagin)/worlds/temple1.world"/> 
+   <arg name="world" value="$(find my_plagin)/worlds/temple2.world"/>
   </include>
 
 </launch>

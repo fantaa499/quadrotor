@@ -7,6 +7,8 @@
 #include <visualization_msgs/Marker.h>
 #include "../include/my_plagin/my_library.h"
 #include <cmath>
+#include <fstream>
+
 
 #define DEVIATE 0.5
 #define X_MAX 20
@@ -24,6 +26,9 @@ int main( int argc, char** argv )
     ros::Publisher marker_pub = n.advertise<visualization_msgs::Marker>("visualization_marker", 10);
 
     ros::Rate r(30);
+
+    std::ofstream file;
+    file.open("/home/anton/fileWithNumb.txt");
 
     float f = 0.0;
     while (ros::ok())
@@ -187,9 +192,13 @@ int main( int argc, char** argv )
         marker_pub.publish(points);
         marker_pub.publish(points1);
         std::cout << i << std::endl;
-
+        if (file.is_open())
+        {
+            file << i << std::endl;
+        }
         ros::Duration(1).sleep();
 
 
     }
+    file.close();
 }

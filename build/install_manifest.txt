@@ -860,11 +860,13 @@
 /home/anton/Documents/catkin_ws/install/share/my_plagin/cmake/my_plaginConfig.cmake
 /home/anton/Documents/catkin_ws/install/share/my_plagin/cmake/my_plaginConfig-version.cmake
 /home/anton/Documents/catkin_ws/install/share/my_plagin/package.xml
+/home/anton/Documents/catkin_ws/install/share/my_plagin/launch/launch_without_control.launch
 /home/anton/Documents/catkin_ws/install/share/my_plagin/launch/outdoor_flight_gazebo.launch
 /home/anton/Documents/catkin_ws/install/share/my_plagin/launch/spawn_quadrotor.launch
 /home/anton/Documents/catkin_ws/install/share/my_plagin/launch/octomap.launch
 /home/anton/Documents/catkin_ws/install/share/my_plagin/launch/en_mot.sh
 /home/anton/Documents/catkin_ws/install/share/my_plagin/launch/insert_world.launch
+/home/anton/Documents/catkin_ws/install/share/my_plagin/rviz_cfg/marker_config.rviz
 /home/anton/Documents/catkin_ws/install/share/my_plagin/rviz_cfg/octo_config.rviz
 /home/anton/Documents/catkin_ws/install/include/my_plagin/my_library.h
 /home/anton/Documents/catkin_ws/install/share/hector_mapping/msg/HectorDebugInfo.msg

@@ -3247,6 +3247,19 @@ message_to_tf/fast:
 .PHONY : message_to_tf/fast
 
 #=============================================================================
+# Target rules for targets named drawTrajectory
+
+# Build rule for target.
+drawTrajectory: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 drawTrajectory
+.PHONY : drawTrajectory
+
+# fast build rule for target.
+drawTrajectory/fast:
+	$(MAKE) -f my_plagin/CMakeFiles/drawTrajectory.dir/build.make my_plagin/CMakeFiles/drawTrajectory.dir/build
+.PHONY : drawTrajectory/fast
+
+#=============================================================================
 # Target rules for targets named genDestinyPointRRT
 
 # Build rule for target.
@@ -3349,6 +3362,19 @@ genPointCloud: cmake_check_build_system
 genPointCloud/fast:
 	$(MAKE) -f my_plagin/CMakeFiles/genPointCloud.dir/build.make my_plagin/CMakeFiles/genPointCloud.dir/build
 .PHONY : genPointCloud/fast
+
+#=============================================================================
+# Target rules for targets named makeRRTmodif
+
+# Build rule for target.
+makeRRTmodif: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 makeRRTmodif
+.PHONY : makeRRTmodif
+
+# fast build rule for target.
+makeRRTmodif/fast:
+	$(MAKE) -f my_plagin/CMakeFiles/makeRRTmodif.dir/build.make my_plagin/CMakeFiles/makeRRTmodif.dir/build
+.PHONY : makeRRTmodif/fast
 
 #=============================================================================
 # Target rules for targets named pcl_ros_gencfg
@@ -4302,6 +4328,7 @@ help:
 	@echo "... topic_tools_generate_messages_py"
 	@echo "... topic_tools_generate_messages_cpp"
 	@echo "... message_to_tf"
+	@echo "... drawTrajectory"
 	@echo "... genDestinyPointRRT"
 	@echo "... pcl_msgs_generate_messages_lisp"
 	@echo "... pcl_msgs_generate_messages_py"
@@ -4310,6 +4337,7 @@ help:
 	@echo "... pcl_msgs_generate_messages_cpp"
 	@echo "... pcl_msgs_generate_messages_nodejs"
 	@echo "... genPointCloud"
+	@echo "... makeRRTmodif"
 	@echo "... pcl_ros_gencfg"
 	@echo "... genOctTree"
 	@echo "... moveToDestiny"
